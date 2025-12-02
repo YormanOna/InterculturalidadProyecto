@@ -1,0 +1,213 @@
+{
+    "nav": {
+        "home": "Home",
+        "culture": "Culture",
+        "community": "Community",
+        "traditions": "Traditions",
+        "gallery": "Gallery",
+        "contact": "Contact"
+    },
+    "language": {
+        "spanish": "Español",
+        "english": "English",
+        "kichwa": "Kichwa"
+    },
+    "home": {
+        "hero": {
+            "title": "Discover the Richness of Our Rural Communities",
+            "subtitle": "A journey through culture, traditions and ancestral wisdom",
+            "cta": "Explore Culture",
+            "ctaSecondary": "View Gallery"
+        },
+        "features": {
+            "culture": {
+                "title": "Living Culture",
+                "description": "Learn about the cultural practices, traditional clothing and values that define our identity"
+            },
+            "community": {
+                "title": "Community Life",
+                "description": "Discover how we live, work and celebrate together in harmony with nature"
+            },
+            "traditions": {
+                "title": "Ancestral Traditions",
+                "description": "Explore our festivities, rituals and wisdom passed down through generations"
+            }
+        },
+        "about": {
+            "title": "Our Mission",
+            "description": "To promote and preserve the cultural richness of rural communities, sharing our history, traditions and way of life with the world. We believe in the importance of keeping our roots alive while embracing the future."
+        }
+    },
+    "culture": {
+        "title": "Our Culture",
+        "subtitle": "The identity of our people",
+        "clothing": {
+            "title": "Traditional Clothing",
+            "description": "Each garment tells a story. Our textiles are hand-woven using ancestral techniques, with natural colors representing elements of nature: the green of the mountains, the blue of the sky, the red of the fertile earth."
+        },
+        "language": {
+            "title": "Mother Tongue",
+            "description": "Kichwa is more than a language, it is the voice of our ancestors. Through it we transmit knowledge, stories and the Andean worldview that connects us with Pachamama."
+        },
+        "values": {
+            "title": "Community Values",
+            "description": "We live by principles of reciprocity (ayni), mutual respect and harmony with nature. The community is our extended family, where we all support each other.",
+            "list": {
+                "ayni": "Ayni - Reciprocity and mutual help",
+                "minka": "Minka - Community work",
+                "respect": "Respect for Pachamama",
+                "solidarity": "Solidarity among neighbors"
+            }
+        },
+        "crafts": {
+            "title": "Handicrafts",
+            "description": "Our hands create functional art: ceramics, textiles, basketry. Each piece carries the soul of the artisan and the wisdom of generations."
+        }
+    },
+    "community": {
+        "title": "Our Community",
+        "subtitle": "United by land and tradition",
+        "daily": {
+            "title": "Daily Life",
+            "description": "Our days begin with the rooster's crow and the aroma of toasted corn. We work the land, care for animals and share moments with family. Life flows to the rhythm of the seasons and cycles of nature."
+        },
+        "agriculture": {
+            "title": "Ancestral Agriculture",
+            "description": "We cultivate the land as our grandparents did, respecting lunar cycles and nature's signs. Corn, potato, quinoa and beans are our sacred foods.",
+            "crops": {
+                "corn": "Corn - The golden grain",
+                "potato": "Potato - Gift of the Andes",
+                "quinoa": "Quinoa - Mother grain",
+                "beans": "Beans - Companion of corn"
+            }
+        },
+        "organization": {
+            "title": "Social Organization",
+            "description": "Our community is organized democratically. Important decisions are made in assemblies where every voice counts. Leaders are chosen for their wisdom and commitment to the common good."
+        },
+        "events": {
+            "title": "Community Events",
+            "description": "We gather to celebrate harvests, weddings, baptisms and festivities. Each event strengthens the bonds that unite us as a people."
+        }
+    },
+    "traditions": {
+        "title": "Our Traditions",
+        "subtitle": "Wisdom that transcends time",
+        "festivals": {
+            "title": "Festivities",
+            "inti": {
+                "name": "Inti Raymi",
+                "description": "The festival of the Sun, celebration of the winter solstice where we thank Taita Inti for the harvests and renew our connection with the cosmos."
+            },
+            "pawkar": {
+                "name": "Pawkar Raymi",
+                "description": "Celebration of blooming, where we welcome spring with dances, music and fertility rituals."
+            },
+            "kulla": {
+                "name": "Kulla Raymi",
+                "description": "Festival of femininity and the moon, honoring women and the feminine energy of Pachamama."
+            }
+        },
+        "music": {
+            "title": "Music and Dance",
+            "description": "Our traditional instruments - the rondador, quena, bombo - create melodies that tell stories of love, work and celebration. Each dance has a deep meaning."
+        },
+        "rituals": {
+            "title": "Sacred Rituals",
+            "description": "We maintain ancestral ceremonies to thank Pachamama, ask for good harvests and maintain balance between the material and spiritual worlds."
+        },
+        "stories": {
+            "title": "Oral Tradition",
+            "description": "Elders are our living libraries. Through tales and legends they transmit teachings about respect, courage and wisdom."
+        }
+    },
+    "gallery": {
+        "title": "Gallery",
+        "subtitle": "Images of our life and culture",
+        "categories": {
+            "all": "All",
+            "landscapes": "Landscapes",
+            "people": "People",
+            "crafts": "Handicrafts",
+            "festivals": "Festivities"
+        },
+        "images": {
+            "mountains": {
+                "title": "Andes Mountains",
+                "description": "The majestic mountains surrounding our community"
+            },
+            "fields": {
+                "title": "Agricultural Fields",
+                "description": "Our fertile lands where we grow traditional crops"
+            },
+            "textiles": {
+                "title": "Hand-woven Textiles",
+                "description": "Colorful textiles made with ancestral techniques"
+            },
+            "celebration": {
+                "title": "Community Celebration",
+                "description": "Gathering for a traditional festival"
+            },
+            "village": {
+                "title": "Our Village",
+                "description": "Homes nestled in the mountains"
+            },
+            "pottery": {
+                "title": "Ceramic Crafts",
+                "description": "Handmade pottery using traditional methods"
+            },
+            "sunset": {
+                "title": "Andean Sunset",
+                "description": "Beautiful sunset over our lands"
+            },
+            "baskets": {
+                "title": "Woven Baskets",
+                "description": "Baskets woven from natural fibers"
+            },
+            "dance": {
+                "title": "Traditional Dance",
+                "description": "Community members performing traditional dance"
+            }
+        }
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "Connect with us",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send message",
+            "success": "Message sent successfully!",
+            "error": "Error sending message"
+        },
+        "info": {
+            "title": "Information",
+            "location": "Location",
+            "locationText": "Rural communities of the Ecuadorian Andes",
+            "email": "Email",
+            "phone": "Phone"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "q1": {
+                "question": "Can I visit the community?",
+                "answer": "Yes! We welcome respectful visitors who wish to learn about our culture. Contact us to coordinate your visit."
+            },
+            "q2": {
+                "question": "How can I support the community?",
+                "answer": "You can support us by buying our handicrafts, participating in community tourism programs or collaborating with educational projects."
+            },
+            "q3": {
+                "question": "Do you offer cultural workshops?",
+                "answer": "Yes, we organize workshops on weaving, ceramics, traditional cooking and Kichwa language. Check availability."
+            }
+        }
+    },
+    "footer": {
+        "description": "Preserving and sharing the cultural richness of our rural communities",
+        "links": "Links",
+        "social": "Social Media",
+        "rights": "All rights reserved"
+    }
+}

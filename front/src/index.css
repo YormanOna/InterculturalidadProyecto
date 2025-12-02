@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-warm min-h-screen;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-terracotta-600 text-white rounded-lg font-medium hover:bg-terracotta-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-terracotta-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 bg-gold-600 text-white rounded-lg font-medium hover:bg-gold-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-2;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border-2 border-terracotta-600 text-terracotta-700 rounded-lg font-medium hover:bg-terracotta-50 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-terracotta-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-cream-200;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-terracotta-600 via-gold-600 to-forest-600 bg-clip-text text-transparent;
+  }
+
+  .gradient-cultural {
+    @apply bg-gradient-cultural;
+  }
+
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply badge bg-terracotta-100 text-terracotta-800;
+  }
+
+  .badge-secondary {
+    @apply badge bg-gold-100 text-gold-800;
+  }
+
+  .badge-success {
+    @apply badge bg-forest-100 text-forest-800;
+  }
+
+  .badge-info {
+    @apply badge bg-sky-100 text-sky-800;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .pattern-dots {
+    background-image: radial-gradient(circle, #FF6B3515 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .pattern-grid {
+    background-image: linear-gradient(#FF6B3510 1px, transparent 1px),
+      linear-gradient(90deg, #FF6B3510 1px, transparent 1px);
+    background-size: 30px 30px;
+  }
+
+  .pattern-waves {
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      #FFB02710 10px,
+      #FFB02710 20px
+    );
+  }
+}

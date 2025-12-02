@@ -1,0 +1,213 @@
+{
+    "nav": {
+        "home": "Wasi",
+        "culture": "Kawsay",
+        "community": "Ayllu",
+        "traditions": "Ñawpa yachay",
+        "gallery": "Rikuna wasi",
+        "contact": "Rimanakuy"
+    },
+    "language": {
+        "spanish": "Español",
+        "english": "English",
+        "kichwa": "Kichwa"
+    },
+    "home": {
+        "hero": {
+            "title": "Ñukanchik Ayllukunapa Ashka Yachaykunata Rikuy",
+            "subtitle": "Shuk ñan kawsay, ñawpa yachay, ñawpa taytakunapa yachaywan",
+            "cta": "Kawsayta Rikuy",
+            "ctaSecondary": "Rikuna Wasita Rikuy"
+        },
+        "features": {
+            "culture": {
+                "title": "Kawsak Kawsay",
+                "description": "Ñukanchik kawsay ruraykunata, ñawpa churanakunata, yachaykunata yachay"
+            },
+            "community": {
+                "title": "Ayllu Kawsay",
+                "description": "Imaynata kawsashkanchik, llankashkanchik, kushikushkanchik Pachamama ukupi"
+            },
+            "traditions": {
+                "title": "Ñawpa Yachay",
+                "description": "Ñukanchik raymikuna, ruraykunata, yachaykunata rikuy"
+            }
+        },
+        "about": {
+            "title": "Ñukanchik Munay",
+            "description": "Ayllukunapa ashka yachaykunata wañuchinata mana munanchik. Ñukanchik willaykunata, ñawpa yachaykunata, kawsaykunata tukuy pachapi rikuchinchik. Ñukanchik sapikunawan kawsanata munanchik, mushuk pachata shuyashpa."
+        }
+    },
+    "culture": {
+        "title": "Ñukanchik Kawsay",
+        "subtitle": "Ñukanchik runakunapa kikin kay",
+        "clothing": {
+            "title": "Ñawpa Churana",
+            "description": "Sapa churanaka shuk willayta charin. Ñukanchik awakunaka makiwan awashka, ñawpa yachaywan, Pachamama lulunkunawan: urku verde, pacha azul, allpa puka."
+        },
+        "language": {
+            "title": "Mama Shimi",
+            "description": "Kichwa shimika mana shukllachu shimi, ñawpa taytakunapa kunka. Paywanmi yachaykunata, willaykunata, Pachamama kawsayta yachachinchik."
+        },
+        "values": {
+            "title": "Ayllu Yachay",
+            "description": "Ñukanchik kawsanchik ayni, alli kay, Pachamama ukupi. Ayllu ñukanchik hatun ayllu, maypika tukuykuna yanapanakunchik.",
+            "list": {
+                "ayni": "Ayni - Kutichinapak yanapay",
+                "minka": "Minka - Ayllu llankay",
+                "respect": "Pachamamata yupaychay",
+                "solidarity": "Wawkikunawan tantanakuy"
+            }
+        },
+        "crafts": {
+            "title": "Makiwan Ruray",
+            "description": "Ñukanchik makikunaka sumak rurayta ruran: mankakuna, awakuna, shikrakuna. Sapa rurashkaka rurakkpa animuta, ashka yachaykunata charin."
+        }
+    },
+    "community": {
+        "title": "Ñukanchik Ayllu",
+        "subtitle": "Allpa, ñawpa yachaywan tantanakushka",
+        "daily": {
+            "title": "Sapa Puncha Kawsay",
+            "description": "Ñukanchik punchaka atallpapa takiywan, kamcha ashnaywan kallarinchik. Allpata llankanchik, uywakunata rikunchik, aylluwan kushikunchik. Kawsayaka Pachamama pachawan purin."
+        },
+        "agriculture": {
+            "title": "Ñawpa Tarpuy",
+            "description": "Allpata tarpunchik ñukanchik abuelos shina, killa pachata, Pachamama willaykunata rikushpa. Sara, papa, kinwa, purutu ñukanchik sumak mikuykuna.",
+            "crops": {
+                "corn": "Sara - Kuri muyu",
+                "potato": "Papa - Urku karay",
+                "quinoa": "Kinwa - Mama muyu",
+                "beans": "Purutu - Sarapa wawki"
+            }
+        },
+        "organization": {
+            "title": "Ayllu Tantachiy",
+            "description": "Ñukanchik ayllu tantachishka. Hatun yuyaykunaka tantanakuypi rurashka, maypika tukuy kunka yupaylla. Pushakkunaka yachaywan, ayllu munaywan akllashka."
+        },
+        "events": {
+            "title": "Ayllu Raymikuna",
+            "description": "Tantanakunchik pallay, kasarakuy, bautizo, raymikunapi. Sapa raymiwan ñukanchik tantanakuy sinchiyarin."
+        }
+    },
+    "traditions": {
+        "title": "Ñukanchik Ñawpa Yachay",
+        "subtitle": "Yachay mana tukurik",
+        "festivals": {
+            "title": "Raymikuna",
+            "inti": {
+                "name": "Inti Raymi",
+                "description": "Inti raymi, chiri pacha raymi, maypika Taita Intita yupayanchik, pallaykunamanta, tukuy pachawan tantanakushpa."
+            },
+            "pawkar": {
+                "name": "Pawkar Raymi",
+                "description": "Sisarikuy raymi, maypika mushuk pachata chaskichik tushuywan, takiywan, wiñay ruraykunawan."
+            },
+            "kulla": {
+                "name": "Kulla Raymi",
+                "description": "Warmi, killa raymi, warmikunata, Pachamamapa warmi kallpata yupayashpa."
+            }
+        },
+        "music": {
+            "title": "Taki, Tushuy",
+            "description": "Ñukanchik takina imanakuna - rondador, kena, wankara - takikunata ruran kuyay, llankay, kushikuy willaykunawan. Sapa tushuypa hatun yuyay."
+        },
+        "rituals": {
+            "title": "Sumak Ruray",
+            "description": "Ñawpa ruraykunata ruranchik Pachamamata yupaychinapak, alli pallaykunata mañanapak, kay pacha, yaya pachawan tantanapak."
+        },
+        "stories": {
+            "title": "Shimiyuk Yachachiy",
+            "description": "Abuelos ñukanchik kawsak yachana wasi. Willaykunawan yachaykunata yachachinchik yupaychay, mana manchay, yachay."
+        }
+    },
+    "gallery": {
+        "title": "Rikuna Wasi",
+        "subtitle": "Ñukanchik kawsay, yachay rikuykuna",
+        "categories": {
+            "all": "Tukuy",
+            "landscapes": "Allpakuna",
+            "people": "Runakuna",
+            "crafts": "Makiwan Ruray",
+            "festivals": "Raymikuna"
+        },
+        "images": {
+            "mountains": {
+                "title": "Urku Andes",
+                "description": "Hatun urkukuna ñukanchik ayllu muyuriy"
+            },
+            "fields": {
+                "title": "Tarpuna Allpa",
+                "description": "Ñukanchik sumak allpa maypika ñawpa mikuykunata tarpunchik"
+            },
+            "textiles": {
+                "title": "Makiwan Awashka",
+                "description": "Sumak lulun awakunaka ñawpa yachaywan rurashka"
+            },
+            "celebration": {
+                "title": "Ayllu Raymi",
+                "description": "Tantanakuy ñawpa raymipak"
+            },
+            "village": {
+                "title": "Ñukanchik Llakta",
+                "description": "Wasikunaka urku ukupi"
+            },
+            "pottery": {
+                "title": "Mankakuna Ruray",
+                "description": "Makiwan rurashka mankakuna ñawpa yachaywan"
+            },
+            "sunset": {
+                "title": "Inti Yaykuy",
+                "description": "Sumak inti yaykuy ñukanchik allpa"
+            },
+            "baskets": {
+                "title": "Awashka Shikrakuna",
+                "description": "Shikrakuna Pachamama k'aspiwan awashka"
+            },
+            "dance": {
+                "title": "Ñawpa Tushuy",
+                "description": "Ayllu runakunaka ñawpa tushuyta ruran"
+            }
+        }
+    },
+    "contact": {
+        "title": "Rimanakuy",
+        "subtitle": "Ñukanchikwan tantanakuy",
+        "form": {
+            "name": "Shuti",
+            "email": "Correo",
+            "message": "Willakuy",
+            "send": "Willakuyta kachay",
+            "success": "¡Willakuy alli kachashka!",
+            "error": "Mana alli willakuy kachay"
+        },
+        "info": {
+            "title": "Willay",
+            "location": "Maypi",
+            "locationText": "Ecuador urku ayllu",
+            "email": "Correo",
+            "phone": "Telefono"
+        },
+        "faq": {
+            "title": "Ashka Tapuykunata",
+            "q1": {
+                "question": "¿Ayllu rikuna ushani?",
+                "answer": "¡Ari! Ñukanchik yupaylla rikukkuna chaskichik, ñukanchik kawsayta yachayta munakkuna. Rimanakuy shamuy yuyachinapak."
+            },
+            "q2": {
+                "question": "¿Imaynata ayllu yanapana ushani?",
+                "answer": "Yanapawankiman ñukanchik makiwan rurashkata rantiykiwan, ayllu rikuna programapi, yachana proyectokunapi."
+            },
+            "q3": {
+                "question": "¿Kawsay yachana kukinkunata charinki?",
+                "answer": "Ari, awana, mankakuna, ñawpa mikuy, kichwa shimi yachana kukinkunata ruranchik. Tapuy."
+            }
+        }
+    },
+    "footer": {
+        "description": "Ñukanchik ayllu ashka yachaykunata wañuchinata mana munanchik",
+        "links": "Ñankuna",
+        "social": "Tantanakuy",
+        "rights": "Tukuy yupay wañushka"
+    }
+}

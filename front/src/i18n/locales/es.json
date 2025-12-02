@@ -1,0 +1,213 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "culture": "Cultura",
+        "community": "Comunidad",
+        "traditions": "Tradiciones",
+        "gallery": "Galería",
+        "contact": "Contacto"
+    },
+    "language": {
+        "spanish": "Español",
+        "english": "English",
+        "kichwa": "Kichwa"
+    },
+    "home": {
+        "hero": {
+            "title": "Descubre la Riqueza de Nuestras Comunidades Rurales",
+            "subtitle": "Un viaje a través de la cultura, tradiciones y sabiduría ancestral",
+            "cta": "Explorar Cultura",
+            "ctaSecondary": "Ver Galería"
+        },
+        "features": {
+            "culture": {
+                "title": "Cultura Viva",
+                "description": "Conoce las prácticas culturales, vestimenta tradicional y valores que definen nuestra identidad"
+            },
+            "community": {
+                "title": "Vida Comunitaria",
+                "description": "Descubre cómo vivimos, trabajamos y celebramos juntos en armonía con la naturaleza"
+            },
+            "traditions": {
+                "title": "Tradiciones Ancestrales",
+                "description": "Explora nuestras festividades, rituales y la sabiduría transmitida de generación en generación"
+            }
+        },
+        "about": {
+            "title": "Nuestra Misión",
+            "description": "Promover y preservar la riqueza cultural de las comunidades rurales, compartiendo nuestra historia, tradiciones y forma de vida con el mundo. Creemos en la importancia de mantener vivas nuestras raíces mientras abrazamos el futuro."
+        }
+    },
+    "culture": {
+        "title": "Nuestra Cultura",
+        "subtitle": "La identidad de nuestro pueblo",
+        "clothing": {
+            "title": "Vestimenta Tradicional",
+            "description": "Cada prenda cuenta una historia. Nuestros textiles son tejidos a mano con técnicas ancestrales, utilizando colores naturales que representan elementos de la naturaleza: el verde de las montañas, el azul del cielo, el rojo de la tierra fértil."
+        },
+        "language": {
+            "title": "Lengua Materna",
+            "description": "El kichwa es más que un idioma, es la voz de nuestros ancestros. A través de él transmitimos conocimientos, historias y la cosmovisión andina que nos conecta con la Pachamama."
+        },
+        "values": {
+            "title": "Valores Comunitarios",
+            "description": "Vivimos bajo principios de reciprocidad (ayni), respeto mutuo y armonía con la naturaleza. La comunidad es nuestra familia extendida, donde todos nos apoyamos.",
+            "list": {
+                "ayni": "Ayni - Reciprocidad y ayuda mutua",
+                "minka": "Minka - Trabajo comunitario",
+                "respect": "Respeto a la Pachamama",
+                "solidarity": "Solidaridad entre vecinos"
+            }
+        },
+        "crafts": {
+            "title": "Artesanías",
+            "description": "Nuestras manos crean arte funcional: cerámicas, tejidos, cestería. Cada pieza lleva el alma del artesano y la sabiduría de generaciones."
+        }
+    },
+    "community": {
+        "title": "Nuestra Comunidad",
+        "subtitle": "Unidos por la tierra y la tradición",
+        "daily": {
+            "title": "Vida Cotidiana",
+            "description": "Nuestros días comienzan con el canto del gallo y el aroma del maíz tostado. Trabajamos la tierra, cuidamos los animales y compartimos momentos en familia. La vida fluye al ritmo de las estaciones y los ciclos de la naturaleza."
+        },
+        "agriculture": {
+            "title": "Agricultura Ancestral",
+            "description": "Cultivamos la tierra como lo hicieron nuestros abuelos, respetando los ciclos lunares y las señales de la naturaleza. Maíz, papa, quinua y fréjol son nuestros alimentos sagrados.",
+            "crops": {
+                "corn": "Maíz - El grano de oro",
+                "potato": "Papa - Regalo de los Andes",
+                "quinoa": "Quinua - Grano madre",
+                "beans": "Fréjol - Compañero del maíz"
+            }
+        },
+        "organization": {
+            "title": "Organización Social",
+            "description": "Nuestra comunidad se organiza democráticamente. Las decisiones importantes se toman en asambleas donde cada voz cuenta. Los líderes son elegidos por su sabiduría y compromiso con el bien común."
+        },
+        "events": {
+            "title": "Eventos Comunitarios",
+            "description": "Nos reunimos para celebrar cosechas, matrimonios, bautizos y festividades. Cada evento fortalece los lazos que nos unen como pueblo."
+        }
+    },
+    "traditions": {
+        "title": "Nuestras Tradiciones",
+        "subtitle": "Sabiduría que trasciende el tiempo",
+        "festivals": {
+            "title": "Festividades",
+            "inti": {
+                "name": "Inti Raymi",
+                "description": "La fiesta del Sol, celebración del solsticio de invierno donde agradecemos al Taita Inti por las cosechas y renovamos nuestra conexión con el cosmos."
+            },
+            "pawkar": {
+                "name": "Pawkar Raymi",
+                "description": "Celebración del florecimiento, donde damos la bienvenida a la primavera con danzas, música y rituales de fertilidad."
+            },
+            "kulla": {
+                "name": "Kulla Raymi",
+                "description": "Fiesta de la feminidad y la luna, honrando a las mujeres y la energía femenina de la Pachamama."
+            }
+        },
+        "music": {
+            "title": "Música y Danza",
+            "description": "Nuestros instrumentos tradicionales - el rondador, la quena, el bombo - crean melodías que cuentan historias de amor, trabajo y celebración. Cada danza tiene un significado profundo."
+        },
+        "rituals": {
+            "title": "Rituales Sagrados",
+            "description": "Mantenemos ceremonias ancestrales para agradecer a la Pachamama, pedir por buenas cosechas y mantener el equilibrio entre el mundo material y espiritual."
+        },
+        "stories": {
+            "title": "Tradición Oral",
+            "description": "Los abuelos son nuestros bibliotecas vivientes. A través de cuentos y leyendas transmiten enseñanzas sobre el respeto, la valentía y la sabiduría."
+        }
+    },
+    "gallery": {
+        "title": "Galería",
+        "subtitle": "Imágenes de nuestra vida y cultura",
+        "categories": {
+            "all": "Todas",
+            "landscapes": "Paisajes",
+            "people": "Gente",
+            "crafts": "Artesanías",
+            "festivals": "Festividades"
+        },
+        "images": {
+            "mountains": {
+                "title": "Montañas Andinas",
+                "description": "Las majestuosas montañas que rodean nuestra comunidad"
+            },
+            "fields": {
+                "title": "Campos Agrícolas",
+                "description": "Nuestras tierras fértiles donde cultivamos alimentos tradicionales"
+            },
+            "textiles": {
+                "title": "Textiles Tejidos a Mano",
+                "description": "Textiles coloridos hechos con técnicas ancestrales"
+            },
+            "celebration": {
+                "title": "Celebración Comunitaria",
+                "description": "Reunión para un festival tradicional"
+            },
+            "village": {
+                "title": "Nuestra Aldea",
+                "description": "Hogares enclavados en las montañas"
+            },
+            "pottery": {
+                "title": "Artesanía Cerámica",
+                "description": "Cerámica hecha a mano usando métodos tradicionales"
+            },
+            "sunset": {
+                "title": "Atardecer Andino",
+                "description": "Hermoso atardecer sobre nuestras tierras"
+            },
+            "baskets": {
+                "title": "Cestas Tejidas",
+                "description": "Cestas tejidas con fibras naturales"
+            },
+            "dance": {
+                "title": "Danza Tradicional",
+                "description": "Miembros de la comunidad realizando danza tradicional"
+            }
+        }
+    },
+    "contact": {
+        "title": "Contacto",
+        "subtitle": "Conecta con nosotros",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "message": "Mensaje",
+            "send": "Enviar mensaje",
+            "success": "¡Mensaje enviado con éxito!",
+            "error": "Error al enviar el mensaje"
+        },
+        "info": {
+            "title": "Información",
+            "location": "Ubicación",
+            "locationText": "Comunidades rurales de los Andes ecuatorianos",
+            "email": "Email",
+            "phone": "Teléfono"
+        },
+        "faq": {
+            "title": "Preguntas Frecuentes",
+            "q1": {
+                "question": "¿Puedo visitar la comunidad?",
+                "answer": "¡Sí! Damos la bienvenida a visitantes respetuosos que deseen aprender sobre nuestra cultura. Contáctanos para coordinar tu visita."
+            },
+            "q2": {
+                "question": "¿Cómo puedo apoyar a la comunidad?",
+                "answer": "Puedes apoyarnos comprando nuestras artesanías, participando en programas de turismo comunitario o colaborando con proyectos educativos."
+            },
+            "q3": {
+                "question": "¿Ofrecen talleres culturales?",
+                "answer": "Sí, organizamos talleres de tejido, cerámica, cocina tradicional y lengua kichwa. Consulta disponibilidad."
+            }
+        }
+    },
+    "footer": {
+        "description": "Preservando y compartiendo la riqueza cultural de nuestras comunidades rurales",
+        "links": "Enlaces",
+        "social": "Redes Sociales",
+        "rights": "Todos los derechos reservados"
+    }
+}
