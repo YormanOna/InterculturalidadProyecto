@@ -38,10 +38,8 @@ const Navbar = () => {
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
-                        <div className="w-10 h-10 bg-gradient-to-br from-terracotta-600 to-gold-600 rounded-lg flex items-center justify-center shadow-md">
-                            <span className="text-white font-bold text-xl">KK</span>
-                        </div>
-                        <span className="font-display font-bold text-xl gradient-text hidden sm:block">
+                        <img src="/images/icono.png" alt="Karanki Logo" className="h-10 w-10" />
+                        <span className="font-display font-bold text-xl text-terracotta-700 hidden sm:block">
                             Karanki
                         </span>
                     </Link>

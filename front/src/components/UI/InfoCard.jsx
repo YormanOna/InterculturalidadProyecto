@@ -6,13 +6,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const InfoCard = ({
     title,
     description,
-    icon: Icon,
-    image,
+    icon,
     badges = [],
     tooltip,
     children,
     className = '',
-    isFontAwesome = false
+    color
 }) => {
     const cardContent = (
         <motion.div
@@ -22,23 +21,13 @@ const InfoCard = ({
             transition={{ duration: 0.5 }}
             className={`card ${className}`}
         >
-            {image && (
-                <div className="mb-4 rounded-lg overflow-hidden">
-                    <img
-                        src={image}
-                        alt={title}
-                        className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300"
-                    />
-                </div>
-            )}
-
-            {Icon && (
+            {icon && (
                 <div className="mb-4">
-                    <div className="w-12 h-12 bg-gradient-to-br from-terracotta-500 to-gold-500 rounded-lg flex items-center justify-center shadow-md">
-                        {isFontAwesome ? (
-                            <FontAwesomeIcon icon={Icon} className="text-2xl text-white" />
+                    <div className={`w-12 h-12 bg-${color}-500 rounded-lg flex items-center justify-center shadow-md`}>
+                        {typeof icon === 'object' && icon.prefix && icon.iconName ? (
+                            <FontAwesomeIcon icon={icon} className="text-2xl text-white" />
                         ) : (
-                            <Icon className="w-6 h-6 text-white" />
+                            <span className="text-2xl text-white">{icon}</span>
                         )}
                     </div>
                 </div>
@@ -46,7 +35,7 @@ const InfoCard = ({
 
             {title && (
                 <div className="flex items-start justify-between mb-3">
-                    <h3 className="text-2xl font-display font-semibold text-gray-800 flex-1">
+                    <h3 className="text-2xl font-display font-semibold text-indigo-nocturno-800 flex-1">
                         {title}
                     </h3>
                     {badges.length > 0 && (

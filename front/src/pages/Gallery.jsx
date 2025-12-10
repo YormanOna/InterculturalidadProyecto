@@ -100,15 +100,11 @@ const Gallery = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="bg-gradient-to-br from-terracotta-600 via-sky-600 to-gold-600 text-white py-20">
+            <div className="bg-indigo-nocturno-800 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
-                    >
-                        {t('gallery.title')}
-                    </motion.h1>
+                    <h1 className="text-5xl font-display font-bold mb-6">
+                        {t('galleryPage.title')}
+                    </h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}

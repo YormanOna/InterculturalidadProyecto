@@ -7,10 +7,13 @@ import Community from './pages/Community';
 import Traditions from './pages/Traditions';
 import Cosmovision from './pages/Cosmovision';
 import Gallery from './pages/Gallery';
+import ScrollToTop from './components/UI/ScrollToTop';
+import ScrollToTopButton from './components/UI/ScrollToTopButton';
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
+      <ScrollToTop />
       <Navbar />
       <main className="flex-grow">
         <Routes>
@@ -23,6 +26,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <ScrollToTopButton />
     </div>
   );
 }

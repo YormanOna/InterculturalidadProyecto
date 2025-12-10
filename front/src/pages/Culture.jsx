@@ -23,9 +23,13 @@ const Culture = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="relative bg-gradient-to-br from-terracotta-600 via-gold-600 to-forest-600 text-white py-20 overflow-hidden">
-                <AnimeBackground variant="subtle" />
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="relative bg-terracotta-600 text-white py-20 overflow-hidden">
+                {/* Decorative circles */}
+                <div className="absolute -top-20 -left-20 w-48 h-48 bg-terracotta-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                <div className="absolute -bottom-20 -right-20 w-48 h-48 bg-gold-solar-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                <div className="absolute top-1/2 left-1/4 w-36 h-36 bg-green-chakra-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -36,9 +40,9 @@ const Culture = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
+                        className="text-5xl font-display font-bold text-center mb-12 text-white"
                     >
-                        {t('culture.title')}
+                        {t('culturePage.title')}
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}

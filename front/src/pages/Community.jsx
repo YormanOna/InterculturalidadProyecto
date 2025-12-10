@@ -23,9 +23,13 @@ const Community = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="relative bg-gradient-to-br from-gold-600 via-terracotta-600 to-forest-700 text-white py-20 overflow-hidden">
-                <AnimeBackground variant="subtle" />
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="relative bg-terracotta-700 text-white py-20 overflow-hidden">
+                {/* Decorative shapes */}
+                <div className="absolute -top-10 -left-10 w-40 h-40 bg-gold-solar-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                <div className="absolute -bottom-10 -right-10 w-56 h-56 bg-green-chakra-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                <div className="absolute top-1/2 left-1/3 w-32 h-32 bg-purple-andino-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -36,9 +40,9 @@ const Community = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
+                        className="text-5xl font-display font-bold text-center mb-12 text-white"
                     >
-                        {t('community.title')}
+                        {t('communityPage.title')}
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}

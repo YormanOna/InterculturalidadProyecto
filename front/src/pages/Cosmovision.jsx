@@ -73,9 +73,13 @@ const Cosmovision = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="relative bg-gradient-to-br from-forest-700 via-sky-600 to-gold-600 text-white py-20 overflow-hidden">
-                <AnimeBackground variant="subtle" />
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="relative bg-indigo-nocturno-800 text-white py-20 overflow-hidden">
+                {/* Decorative celestial bodies */}
+                <div className="absolute top-0 left-0 w-64 h-64 bg-purple-andino-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse-slow"></div>
+                <div className="absolute bottom-10 right-10 w-48 h-48 bg-gold-solar-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse-slow animation-delay-2000"></div>
+                <div className="absolute top-1/4 right-1/4 w-36 h-36 bg-turquoise-glaciar-500 rounded-full mix-blend-screen filter blur-3xl opacity-30 animate-pulse-slow animation-delay-4000"></div>
+
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -86,9 +90,9 @@ const Cosmovision = () => {
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
+                        className="text-5xl font-display font-bold text-center mb-12 text-white"
                     >
-                        {t('cosmovision.title')}
+                        {t('cosmovisionPage.title')}
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -107,16 +111,16 @@ const Cosmovision = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="bg-gradient-to-br from-forest-50 to-gold-50 rounded-2xl p-8 md:p-12 border-2 border-forest-200 mb-16"
+                    className="bg-green-chakra-50 rounded-2xl p-8 md:p-12 border-2 border-green-chakra-200 mb-16 shadow-lg"
                 >
                     <div className="flex items-center space-x-3 mb-6">
-                        <FontAwesomeIcon icon={faMountain} className="text-4xl text-forest-600" />
-                        <h2 className="text-4xl font-display font-bold text-gray-800">
-                            {t('cosmovision.pachaMama.title')}
+                        <FontAwesomeIcon icon={faMountain} className="text-4xl text-green-chakra-800" />
+                        <h2 className="text-4xl font-display font-bold text-center mb-8 text-green-chakra-800">
+                            {t('cosmovisionPage.sections.pachamama.title')}
                         </h2>
                     </div>
-                    <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-                        {t('cosmovision.pachaMama.description')}
+                    <p className="text-lg leading-relaxed text-center max-w-3xl mx-auto mb-10 text-gray-800">
+                        {t('cosmovisionPage.sections.pachamama.description')}
                     </p>
 
                     {/* Four Elements */}
@@ -155,7 +159,7 @@ const Cosmovision = () => {
                     viewport={{ once: true }}
                     className="mb-16"
                 >
-                    <h2 className="text-4xl font-display font-bold text-center mb-12 gradient-text">
+                    <h2 className="text-4xl font-display font-bold text-center mb-12 text-gold-solar-400">
                         {t('cosmovision.signs.title')}
                     </h2>
 
@@ -224,7 +228,7 @@ const Cosmovision = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                 >
-                    <h2 className="text-4xl font-display font-bold text-center mb-12 gradient-text">
+                    <h2 className="text-4xl font-display font-bold text-center mb-12 text-gold-solar-400">
                         {t('cosmovision.medicine.title')}
                     </h2>
 

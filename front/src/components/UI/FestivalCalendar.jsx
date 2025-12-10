@@ -114,7 +114,7 @@ const FestivalCalendar = () => {
 
                 <div className="relative">
                     {/* Timeline Line */}
-                    <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-green-chakra-400 via-gold-solar-400 to-purple-andino-400 rounded-full transform -translate-y-1/2 z-0"></div>
+                    <div className="absolute top-1/2 left-0 right-0 h-1 bg-green-chakra-400 rounded-full transform -translate-y-1/2 z-0"></div>
 
                     {/* Festival Cards on Timeline */}
                     <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 z-10">

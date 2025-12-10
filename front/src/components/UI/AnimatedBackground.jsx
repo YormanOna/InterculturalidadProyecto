@@ -12,7 +12,7 @@ const AnimatedBackground = () => {
             {circles.map((circle, index) => (
                 <motion.div
                     key={index}
-                    className={`absolute rounded-full bg-gradient-to-br ${circle.color} blur-3xl`}
+                    className={`absolute rounded-full bg-${circle.color}-500 blur-3xl`}
                     style={{
                         width: circle.size,
                         height: circle.size,

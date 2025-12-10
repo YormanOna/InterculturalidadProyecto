@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { Send, MapPin, Mail, Phone, ChevronDown, ChevronUp } from 'lucide-react';
+import { Send, MapPin, Mail, Phone, ChevronDown, ChevronUp, Facebook, Twitter, Instagram } from 'lucide-react';
 import Tooltip from '../components/UI/Tooltip';
 
 const Contact = () => {
@@ -44,23 +44,93 @@ const Contact = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="bg-gradient-to-br from-gold-600 via-sky-600 to-terracotta-600 text-white py-20">
+            <div className="bg-turquoise-glaciar-600 text-white py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
-                    >
-                        {t('contact.title')}
-                    </motion.h1>
-                    <motion.p
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 0.2 }}
-                        className="text-xl text-white/90"
-                    >
-                        {t('contact.subtitle')}
-                    </motion.p>
+                    <h1 className="text-5xl font-display font-bold mb-6">
+                        {t('contactPage.title')}
+                    </h1>
+                    <p className="text-xl mb-12 max-w-3xl mx-auto">
+                        {t('contactPage.subtitle')}
+                    </p>
+
+                    <div className="grid md:grid-cols-2 gap-12 items-start mt-12">
+                        {/* Contact Information */}
+                        <div className="text-left">
+                            <h2 className="text-3xl font-display font-bold mb-6 text-gold-solar-200">
+                                {t('contactPage.info.title')}
+                            </h2>
+                            <div className="space-y-6 text-lg">
+                                <p className="flex items-center">
+                                    <Phone className="w-6 h-6 mr-3 text-gold-solar-300" />
+                                    <span>{t('contactPage.info.phone')}</span>
+                                </p>
+                                <p className="flex items-center">
+                                    <Mail className="w-6 h-6 mr-3 text-gold-solar-300" />
+                                    <span>{t('contactPage.info.email')}</span>
+                                </p>
+                                <p className="flex items-start">
+                                    <MapPin className="w-6 h-6 mr-3 text-gold-solar-300 flex-shrink-0" />
+                                    <span>{t('contactPage.info.address')}</span>
+                                </p>
+                                <div className="flex space-x-6 mt-8">
+                                    <a href="#" className="text-gold-solar-300 hover:text-gold-solar-500 transition-colors">
+                                        <Facebook className="w-7 h-7" />
+                                    </a>
+                                    <a href="#" className="text-gold-solar-300 hover:text-gold-solar-500 transition-colors">
+                                        <Twitter className="w-7 h-7" />
+                                    </a>
+                                    <a href="#" className="text-gold-solar-300 hover:text-gold-solar-500 transition-colors">
+                                        <Instagram className="w-7 h-7" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Contact Form */}
+                        <div className="bg-cream-100 rounded-2xl p-8 border-2 border-gold-solar-200 shadow-lg text-gray-800 text-left">
+                            <h2 className="text-3xl font-display font-bold mb-6 text-terracotta-700">
+                                {t('contactPage.form.title')}
+                            </h2>
+                            <form className="space-y-4">
+                                <div>
+                                    <label htmlFor="name" className="block text-lg font-medium mb-2">
+                                        {t('contactPage.form.name')}
+                                    </label>
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        className="w-full p-3 border border-cream-300 rounded-lg focus:ring-terracotta-500 focus:border-terracotta-500 transition-colors"
+                                        placeholder={t('contactPage.form.namePlaceholder')}
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="email" className="block text-lg font-medium mb-2">
+                                        {t('contactPage.form.email')}
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        className="w-full p-3 border border-cream-300 rounded-lg focus:ring-terracotta-500 focus:border-terracotta-500 transition-colors"
+                                        placeholder={t('contactPage.form.emailPlaceholder')}
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="message" className="block text-lg font-medium mb-2">
+                                        {t('contactPage.form.message')}
+                                    </label>
+                                    <textarea
+                                        id="message"
+                                        rows="5"
+                                        className="w-full p-3 border border-cream-300 rounded-lg focus:ring-terracotta-500 focus:border-terracotta-500 transition-colors"
+                                        placeholder={t('contactPage.form.messagePlaceholder')}
+                                    ></textarea>
+                                </div>
+                                <button type="submit" className="btn-primary">
+                                    {t('contactPage.form.submit')}
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
 

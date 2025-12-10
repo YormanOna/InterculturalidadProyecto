@@ -24,9 +24,15 @@ const Traditions = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="relative bg-gradient-to-br from-sky-600 via-terracotta-600 to-gold-600 text-white py-20 overflow-hidden">
-                <AnimeBackground variant="subtle" />
-                <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div className="relative bg-turquoise-glaciar-600 text-white py-20 overflow-hidden">
+                {/* Decorative elements */}
+                <div className="absolute inset-0 z-0 opacity-20">
+                    <div className="absolute top-10 left-10 w-32 h-32 bg-purple-andino-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
+                    <div className="absolute bottom-20 right-20 w-48 h-48 bg-gold-solar-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
+                    <div className="absolute top-1/3 right-1/4 w-40 h-40 bg-terracotta-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
+                </div>
+
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <motion.div
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
@@ -34,13 +40,9 @@ const Traditions = () => {
                     >
                         <FontAwesomeIcon icon={faSun} className="text-6xl animate-pulse" />
                     </motion.div>
-                    <motion.h1
-                        initial={{ opacity: 0, y: 20 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        className="text-5xl md:text-6xl font-display font-bold mb-4"
-                    >
-                        {t('traditions.title')}
-                    </motion.h1>
+                    <h1 className="text-5xl font-display font-bold text-center mb-12 text-white">
+                        {t('traditionsPage.title')}
+                    </h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}

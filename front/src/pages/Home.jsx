@@ -88,7 +88,7 @@ const Home = () => {
                         alt="Territorio Karanki" 
                         className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-purple-andino-900/80 via-terracotta-900/70 to-transparent"></div>
+                    <div className="absolute inset-0 bg-indigo-nocturno-900/80"></div>
                 </div>
                 <div className="relative z-10 h-full flex items-center max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <motion.div
@@ -108,7 +108,7 @@ const Home = () => {
             </section>
 
             {/* Stats Section */}
-            <section className="bg-gradient-to-br from-cream-50 via-white to-gold-50 py-16">
+            <section className="bg-cream-100 py-16">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {stats.map((stat, index) => (
@@ -149,7 +149,7 @@ const Home = () => {
                                     description={feature.description}
                                     badges={feature.badges}
                                     className="h-full hover:scale-105 transition-transform"
-                                    isFontAwesome={true}
+                                    color={feature.badges[0].variant === 'primary' ? 'terracotta' : feature.badges[0].variant === 'secondary' ? 'gold-solar' : 'turquoise-glaciar'}
                                 />
                             </motion.div>
                         </Link>
@@ -158,7 +158,7 @@ const Home = () => {
             </section>
 
             {/* About Section */}
-            <section className="bg-gradient-to-br from-terracotta-50 via-cream-100 to-gold-50 py-20 pattern-dots relative overflow-hidden">
+            <section className="bg-terracotta-50 py-20 pattern-dots relative overflow-hidden">
                 <div className="absolute top-10 left-10 w-32 h-32 bg-terracotta-200/30 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-10 right-10 w-40 h-40 bg-gold-200/30 rounded-full blur-3xl"></div>
                 
@@ -167,7 +167,7 @@ const Home = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-5xl font-display font-bold mb-6 gradient-text"
+                        className="text-4xl md:text-5xl font-display font-bold mb-6 text-terracotta-700"
                     >
                         {t('home.about.title')}
                     </motion.h2>
@@ -189,7 +189,7 @@ const Home = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-4xl font-display font-bold text-center mb-12 gradient-text"
+                    className="text-4xl font-display font-bold text-center mb-12 text-terracotta-700"
                 >
                     {t('home.location.title')}
                 </motion.h2>
@@ -214,7 +214,7 @@ const Home = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="bg-gradient-to-br from-forest-600 via-terracotta-600 to-gold-600 text-white py-20">
+            <section className="bg-forest-600 text-white py-20">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <motion.h2
                         initial={{ opacity: 0, y: 20 }}

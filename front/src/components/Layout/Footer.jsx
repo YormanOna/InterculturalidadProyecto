@@ -14,26 +14,22 @@ const Footer = () => {
     ];
 
     return (
-        <footer className="bg-gradient-to-br from-terracotta-900 via-terracotta-800 to-gold-900 text-white mt-20">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    {/* About Section */}
-                    <div>
-                        <div className="flex items-center space-x-2 mb-4">
-                            <div className="w-10 h-10 bg-gradient-to-br from-gold-400 to-terracotta-400 rounded-lg flex items-center justify-center shadow-lg">
-                                <span className="text-white font-bold text-xl">KK</span>
-                            </div>
-                            <span className="font-display font-bold text-xl">
-                                Karanki
-                            </span>
-                        </div>
+        <footer className="bg-indigo-nocturno-900 text-white mt-20">
+            <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+                <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+                    {/* Section 1: Logo and Description */}
+                    <div className="space-y-4">
+                        <Link to="/" className="flex items-center space-x-2">
+                            <img src="/images/icono.png" alt="Karanki Logo" className="h-10 w-10" />
+                            <span className="font-display font-bold text-xl text-white">Karanki</span>
+                        </Link>
                         <p className="text-cream-200 text-sm leading-relaxed">
                             Pueblo Indígena Kichwa Karanki - Preservando más de 500 años de cultura ancestral en el corazón de Imbabura, Ecuador.
                         </p>
                     </div>
 
-                    {/* Links Section */}
-                    <div>
+                    {/* Section 2: Links */}
+                    <div className="space-y-4">
                         <h3 className="font-display font-semibold text-lg mb-4">
                             {t('footer.links')}
                         </h3>
@@ -51,7 +47,26 @@ const Footer = () => {
                         </ul>
                     </div>
 
-
+                    {/* Section 3: Social Media Links (Placeholder) */}
+                    <div className="space-y-4">
+                        <h3 className="font-display font-semibold text-lg mb-4">
+                            {t('footer.follow')}
+                        </h3>
+                        <p className="text-cream-200 text-sm">
+                            {t('footer.social_media_description')}
+                        </p>
+                        <div className="flex space-x-4">
+                            <a href="#" className="text-cream-200 hover:text-gold-300 transition-colors duration-300 text-lg" title="Facebook">
+                                <i className="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" className="text-cream-200 hover:text-gold-300 transition-colors duration-300 text-lg" title="Instagram">
+                                <i className="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" className="text-cream-200 hover:text-gold-300 transition-colors duration-300 text-lg" title="Twitter">
+                                <i className="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
                 {/* Copyright */}
