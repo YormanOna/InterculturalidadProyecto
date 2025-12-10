@@ -17,6 +17,7 @@
         "hero": {
             "title": "Pueblo Indígena Kichwa Karanki",
             "subtitle": "Guardianes ancestrales de la Sierra Norte del Ecuador - Provincia de Imbabura",
+            "badge": "Patrimonio Cultural Ancestral",
             "cta": "Descubre Nuestra Cultura",
             "ctaSecondary": "Ver Galería"
         },
@@ -26,9 +27,13 @@
             "communities": "42",
             "communitiesLabel": "Comunidades",
             "location": "Imbabura",
-            "locationLabel": "Provincia"
+            "locationLabel": "Provincia",
+            "sectionTitle": "Nuestra Comunidad en Números",
+            "sectionSubtitle": "Conoce la presencia y el alcance del pueblo Karanki en Imbabura"
         },
         "features": {
+            "sectionTitle": "Explora Nuestra Cultura",
+            "sectionSubtitle": "Descubre los pilares fundamentales de nuestra identidad ancestral",
             "culture": {
                 "title": "Cultura Material",
                 "description": "Vestimenta tradicional bordada a mano, artesanías y textiles que reflejan nuestra identidad ancestral"
@@ -48,16 +53,86 @@
         },
         "location": {
             "title": "Nuestro Territorio",
+            "subtitle": "Sierra Norte del Ecuador",
+            "badge": "📍 Ubicación Geográfica",
+            "description": "Nuestras comunidades ancestrales se extienden por los hermosos cantones de Ibarra, Otavalo, Antonio Ante y Pimampiro en la provincia de Imbabura, hogar de montañas sagradas, valles fértiles y una rica herencia cultural.",
             "ibarra": "Ibarra: La Esperanza, Angochagua, Caranqui, San Antonio",
             "otavalo": "Otavalo: San Juan de Ilumán",
             "antonioAnte": "Antonio Ante: Andrade Marín",
-            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba"
+            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba",
+            "stats": {
+                "altitude": "Altitud",
+                "altitudeValue": "2.200 - 3.600 msnm",
+                "climate": "Clima",
+                "climateValue": "Templado andino",
+                "agriculture": "Agricultura",
+                "agricultureValue": "Maíz, papa, quinua",
+                "resources": "Recursos",
+                "resourcesValue": "Ríos y lagos"
+            },
+            "cantons": "Ibarra, Otavalo, Antonio Ante y Pimampiro",
+            "territoryCta": {
+                "title": "Descubre Nuestras Festividades",
+                "description": "Explora el Inti Raymi, Kulla Raymi, Pawkar Raymi y otras celebraciones ancestrales que mantienen viva nuestra conexión con el cosmos",
+                "ctaTraditions": "Ver Festividades",
+                "ctaCosmovision": "Conocer Cosmovisión"
+            },
+            "sectionTitle": "Nuestras Comunidades",
+            "sectionSubtitle": "Nuestras comunidades se extienden por los cantones de la provincia de Imbabura"
         }
     },
     "culture": {
         "title": "Cultura Material",
         "subtitle": "La identidad de nuestro pueblo expresada en cada prenda y artesanía",
+        "hero": {
+            "vestimentaTag": "Vestimenta Tradicional",
+            "artesaniasTag": "Artesanías",
+            "idiomaTag": "Idioma Kichwa",
+            "patrimonio": "Patrimonio Vivo",
+            "identidad": "Identidad Ancestral",
+            "vestimentaDesc": "Cada prenda cuenta una historia de identidad y tradición ancestral, transmitida de generación en generación con amor y respeto",
+            "menCard": {
+                "title": "Vestimenta Masculina",
+                "description": "Poncho, pantalón blanco, alpargatas y sombrero de ala corta"
+            },
+            "womenCard": {
+                "title": "Vestimenta Femenina",
+                "description": "Blusa bordada, anaco, walka y chalina de colores"
+            },
+            "embroideryCard": {
+                "title": "Bordados",
+                "description": "Arte textil con motivos geométricos y naturales"
+            },
+            "languageCard": {
+                "title": "Kichwa",
+                "description": "Lengua ancestral en proceso de revitalización"
+            }
+        },
+        "vestimenta": {
+            "title": "Vestimenta Tradicional",
+            "men": "Hombres",
+            "menDesc": "Poncho, pantalón blanco, sombrero",
+            "women": "Mujeres",
+            "womenDesc": "Blusa bordada, anaco, walka",
+            "embroidery": "Bordados",
+            "embroideryDesc": "Hechos a mano con amor",
+            "colors": "Colores",
+            "colorsDesc": "Significado ancestral",
+            "yearsOfTradition": "Años de tradición",
+            "handmade": "Hecho a mano",
+            "culturalIdentity": "Identidad cultural"
+        },
+        "sections": {
+            "elements": "Elementos de Nuestra Vestimenta",
+            "elementsDesc": "Cada elemento de nuestra vestimenta tradicional tiene un significado profundo y representa nuestra conexión con la tierra y nuestros ancestros",
+            "menClothing": "Vestimenta Masculina",
+            "womenClothing": "Vestimenta Femenina",
+            "craftsTitle": "Artesanías y Textiles",
+            "craftsDesc": "El arte tradicional Karanki se expresa a través de bordados y textiles elaborados con técnicas ancestrales"
+        },
         "clothing": {
+            "sectionTitle": "Elementos de Nuestra Vestimenta",
+            "sectionDescription": "Cada elemento de nuestra vestimenta tradicional tiene un significado profundo y representa nuestra conexión con la tierra y nuestros ancestros",
             "men": {
                 "title": "Vestimenta Masculina",
                 "description": "Los hombres Karanki visten pantalones blancos y camisa blanca, acompañados de un poncho de lana roja para celebraciones especiales y uno de color azul para el uso diario. Completan su atuendo con alpargatas blancas y un sombrero de ala corta.",
@@ -97,6 +172,11 @@
         "crafts": {
             "title": "Artesanías",
             "subtitle": "El arte de nuestras manos",
+            "badges": {
+                "traditional": "Tradicional",
+                "artisan": "Artesanal",
+                "manual": "Manual"
+            },
             "embroidery": {
                 "title": "Bordado a Mano",
                 "description": "El bordado a mano ha sido tradicionalmente una artesanía importante. Las camisas son muy diversas y coloridas, utilizando diversos hilos de colores en un pedazo de tela blanca dibujada donde minuciosamente se va bordando. Los bordados de las mujeres Karanki han trascendido las fronteras del país, participando en ferias nacionales e internacionales."
@@ -111,15 +191,40 @@
             }
         }
     },
+    "communityPage": {
+        "title": "Comunidad Karanki",
+        "stats": {
+            "communities": "Comunidades",
+            "families": "Familias",
+            "yearsOfHistory": "Años de Historia",
+            "livingTradition": "Tradición Viva"
+        },
+        "tags": {
+            "minga": "Minga Comunitaria",
+            "government": "Gobierno Local",
+            "agriculture": "Agricultura Ancestral"
+        }
+    },
+    "traditionsPage": {
+        "title": "Tradiciones Ancestrales"
+    },
     "community": {
         "title": "Organización Comunitaria",
         "subtitle": "Unidos por la tierra y la tradición",
+        "badges": {
+            "organization": "Organización Comunitaria",
+            "authority": "Autoridad",
+            "wisdom": "Sabiduría",
+            "equity": "Equidad"
+        },
         "organization": {
             "title": "Estructura Organizativa",
+            "subtitle": "El pueblo kichwa Karanki organiza su vida social en comunidades o comunas, siendo la máxima autoridad el Consejo de Cabildo",
             "description": "El pueblo kichwa Karanki organiza su vida social en comunidades o comunas, siendo la máxima autoridad el Consejo de Cabildo. Las comunidades se organizan generalmente en corporaciones o uniones parroquiales, que a su vez se agrupan en federaciones.",
             "cabildo": {
                 "title": "Consejo de Cabildo",
-                "description": "Cada año, el Consejo de Cabildo elabora un plan y lo pone a consideración de la Asamblea para su aprobación. Las actividades se planifican en asambleas generales, espacio donde se toman las decisiones para el desarrollo comunitario."
+                "description": "Cada año, el Consejo de Cabildo elabora un plan y lo pone a consideración de la Asamblea para su aprobación. Las actividades se planifican en asambleas generales, espacio donde se toman las decisiones para el desarrollo comunitario.",
+                "roles": "Presidente, Vice-presidente, Tesorero, Secretario"
             },
             "elders": {
                 "title": "Consejo de Ancianos",
@@ -132,13 +237,19 @@
         },
         "minga": {
             "title": "La Minga",
-            "description": "La minga (minkay) es una actividad cultural donde tanto comuneros como el cabildo dedican tiempo y esfuerzo por el bien común: mejorar las condiciones de las calles, senderos, ayudar en el mantenimiento de la casa comunal o instituciones. La minga es una fusión de trabajo colectivo y celebración en comunidad."
+            "description": "La minga (minkay) es una actividad cultural donde tanto comuneros como el cabildo dedican tiempo y esfuerzo por el bien común: mejorar las condiciones de las calles, senderos, ayudar en el mantenamiento de la casa comunal o instituciones. La minga es una fusión de trabajo colectivo y celebración en comunidad.",
+            "principleTitle": "Principio Fundamental",
+            "principle": "Trabajo colectivo basado en la reciprocidad, solidaridad y ayuda mutua entre los miembros de la comunidad.",
+            "activitiesTitle": "Actividades Comunes",
+            "activities": "Mejora de calles y senderos, mantenimiento de la casa comunal, construcción de infraestructura comunitaria, y trabajos agrícolas colectivos."
         },
         "economy": {
             "title": "Economía Comunitaria",
+            "subtitle": "Actividades económicas tradicionales y sostenibles que sustentan a nuestras comunidades",
             "agriculture": {
                 "title": "Agricultura",
                 "description": "La actividad principal es la agrícola. Entre los cerros y lugares altos cultivan productos de clima frío: trigo, cebada, papa, ocas; en las partes bajas cultivan maíz para vender en las ciudades.",
+                "cropsTitle": "Principales Cultivos",
                 "crops": [
                     "Papas",
                     "Maíz",
@@ -157,7 +268,8 @@
             },
             "tourism": {
                 "title": "Turismo Comunitario",
-                "description": "Una actividad económica que está desarrollando la población es el turismo comunitario, en la que comparten sus saberes y la visita a sus territorios a visitantes nacionales y extranjeros. La comunidad La Magdalena ofrece atención alimenticia, agroturismo y cabalgatas."
+                "description": "Una actividad económica que está desarrollando la población es el turismo comunitario, en la que comparten sus saberes y la visita a sus territorios a visitantes nacionales y extranjeros.",
+                "example": "La comunidad La Magdalena ofrece atención alimenticia, agroturismo y cabalgatas."
             },
             "barter": {
                 "title": "Trueque",
@@ -168,6 +280,10 @@
     "traditions": {
         "title": "Tradiciones Ancestrales",
         "subtitle": "Festividades que nos conectan con el cosmos y la tierra",
+        "badges": {
+            "ancestral": "Celebraciones Ancestrales",
+            "main": "Festividades Principales"
+        },
         "festivals": {
             "title": "Festividades Principales",
             "subtitle": "Celebraciones ancestrales que marcan los ciclos solares y agrícolas",
@@ -253,6 +369,84 @@
             "dance": {
                 "title": "Danza",
                 "description": "Las mujeres transmiten conocimientos de manera práctica por medio de coplas y danzas. En el Inti Raymi se mantiene la tradición del 'zapateo' con presencia de grupos folclóricos, danzantes, ñustas y comuneros."
+            }
+        }
+    },
+    "cosmovisionPage": {
+        "hero": {
+            "title": "Cosmovisión Karanki",
+            "subtitle": "Nuestra relación sagrada con la naturaleza y el cosmos",
+            "description": "En nuestra cosmovisión andina, todo está conectado: el cielo, la tierra, el agua y el fuego. La Pacha Mama nos guía y protege, enseñándonos a vivir en armonía con todos los seres que habitan el Inti Pacha (mundo de arriba), Kay Pacha (mundo del presente) y Uku Pacha (mundo de adentro).",
+            "stats": {
+                "elements": "4 Elementos",
+                "worlds": "3 Mundos",
+                "sacred": "Sagrado"
+            }
+        },
+        "pachamama": {
+            "title": "Pacha Mama - Madre Tierra",
+            "subtitle": "La fuente de toda vida y sabiduría ancestral",
+            "intro": "La Madre Tierra es el centro de nuestra existencia. Ella nos alimenta, nos protege y nos enseña. Le agradecemos por las cosechas y le pedimos que reciba en su vientre las nuevas semillas para su germinación.",
+            "elements": {
+                "water": {
+                    "title": "Yaku - Agua",
+                    "description": "Fuente de vida que fluye desde las montañas sagradas"
+                },
+                "air": {
+                    "title": "Wayra - Aire",
+                    "description": "El aliento vital que conecta todos los seres"
+                },
+                "fire": {
+                    "title": "Nina - Fuego",
+                    "description": "La energía transformadora del sol y los volcanes"
+                },
+                "earth": {
+                    "title": "Allpa - Tierra",
+                    "description": "El cuerpo sagrado de la Pacha Mama"
+                }
+            },
+            "sacred": {
+                "title": "Lugares Sagrados",
+                "description": "Los Karanki adoraban las grandes elevaciones como montañas sagradas, espacios donde el Kay Pacha se encuentra con el Inti Pacha."
+            }
+        }
+    },
+    "cosmovisionPage": {
+        "hero": {
+            "title": "Cosmovisión Karanki",
+            "subtitle": "Nuestra relación sagrada con la naturaleza y el cosmos",
+            "description": "En nuestra cosmovisión andina, todo está conectado: el cielo, la tierra, el agua y el fuego. La Pacha Mama nos guía y protege, enseñándonos a vivir en armonía con todos los seres que habitan el Inti Pacha (mundo de arriba), Kay Pacha (mundo del presente) y Uku Pacha (mundo de adentro).",
+            "stats": {
+                "elements": "4 Elementos",
+                "worlds": "3 Mundos",
+                "sacred": "Sagrado"
+            }
+        },
+        "pachamama": {
+            "title": "Pacha Mama - Madre Tierra",
+            "subtitle": "La fuente de toda vida y sabiduría ancestral",
+            "intro": "La Madre Tierra es el centro de nuestra existencia. Ella nos alimenta, nos protege y nos enseña. Le agradecemos por las cosechas y le pedimos que reciba en su vientre las nuevas semillas para su germinación.",
+            "elements": {
+                "water": {
+                    "title": "Yaku - Agua",
+                    "description": "Fuente de vida que fluye desde las montañas sagradas"
+                },
+                "air": {
+                    "title": "Wayra - Aire",
+                    "description": "El aliento vital que conecta todos los seres"
+                },
+                "fire": {
+                    "title": "Nina - Fuego",
+                    "description": "La energía transformadora del sol y los volcanes"
+                },
+                "earth": {
+                    "title": "Allpa - Tierra",
+                    "description": "El cuerpo sagrado de la Pacha Mama"
+                }
+            },
+            "sacred": {
+                "title": "Lugares Sagrados",
+                "description": "Los Karanki adoraban las grandes elevaciones como montañas sagradas, espacios donde el Kay Pacha se encuentra con el Inti Pacha."
             }
         }
     },
@@ -351,8 +545,8 @@
                         "use": "Digestión, períodos menstruales"
                     },
                     {
-                        "name": "Cedrón",
-                        "use": "Fiebre, calmante estomacal, estrés"
+                        "name": "Manzana",
+                        "use": "Diarreas"
                     }
                 ]
             }
@@ -379,6 +573,13 @@
             "constitution2008": "La Constitución de 2008, artículo 57, reconoce los Derechos Colectivos, permitiendo trabajar en la revitalización del comercio ancestral y fortalecer la identidad cultural"
         }
     },
+    "galleryPage": {
+        "title": "Galería Cultural Karanki",
+        "stats": {
+            "photos": "Fotografías",
+            "categories": "Categorías"
+        }
+    },
     "gallery": {
         "title": "Galería Cultural",
         "subtitle": "Imágenes de nuestro pueblo, territorio y tradiciones",
@@ -389,6 +590,44 @@
             "crafts": "Artesanías",
             "festivals": "Festividades",
             "clothing": "Vestimenta"
+        },
+        "images": {
+            "mountains": {
+                "title": "Montañas Sagradas",
+                "description": "Los Andes que rodean nuestro territorio ancestral"
+            },
+            "fields": {
+                "title": "Campos de Cultivo",
+                "description": "Tierras fértiles donde cultivamos nuestros alimentos tradicionales"
+            },
+            "textiles": {
+                "title": "Textiles Ancestrales",
+                "description": "Vestimenta tradicional bordada a mano con símbolos sagrados"
+            },
+            "celebration": {
+                "title": "Celebración Comunitaria",
+                "description": "Nuestras festividades que mantienen viva la tradición"
+            },
+            "village": {
+                "title": "Comunidad Karanki",
+                "description": "Nuestros hogares en armonía con la Pacha Mama"
+            },
+            "pottery": {
+                "title": "Artesanías Tradicionales",
+                "description": "Trabajos manuales que preservan nuestra identidad cultural"
+            },
+            "sunset": {
+                "title": "Gente Karanki",
+                "description": "Rostros que reflejan la sabiduría de nuestros ancestros"
+            },
+            "baskets": {
+                "title": "Canastos Tejidos",
+                "description": "Artesanías elaboradas con técnicas ancestrales"
+            },
+            "dance": {
+                "title": "Danza Tradicional",
+                "description": "Expresión artística que conecta con nuestras raíces"
+            }
         }
     },
     "contact": {
@@ -431,10 +670,16 @@
         }
     },
     "footer": {
-        "description": "Pueblo Indígena Kichwa Karanki - Preservando más de 500 años de cultura ancestral en la Sierra Norte del Ecuador",
+        "description": "Pueblo Indígena Kichwa Karanki - Preservando más de 500 años de cultura ancestral en el corazón de Imbabura, Ecuador.",
         "links": "Enlaces",
-        "social": "Redes Sociales",
-        "rights": "Todos los derechos reservados",
-        "acknowledgment": "En reconocimiento a nuestros ancestros y en honor a las futuras generaciones"
+        "contact": "Contacto",
+        "location": "Imbabura, Ecuador",
+        "cantons": "Cantones: Ibarra, Otavalo, Antonio Ante, Pimampiro",
+        "email": "info@karanki.ec",
+        "phone": "+593 (06) 123-4567",
+        "mission": "Nuestra Misión",
+        "missionText": "Preservar, fortalecer y difundir nuestra identidad cultural ancestral Karanki, promoviendo el respeto por la Pacha Mama y la sabiduría de nuestros mayores.",
+        "learnMore": "Conocer Más",
+        "rights": "Pueblo Indígena Kichwa Karanki. Todos los derechos reservados."
     }
 }

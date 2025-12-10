@@ -16,7 +16,8 @@
     "home": {
         "hero": {
             "title": "Kichwa Karanki Indigenous People",
-            "subtitle": "Ancestral Guardians of Northern Ecuador - Imbabura Province",
+            "subtitle": "Ancestral guardians of the Northern Highlands of Ecuador - Imbabura Province",
+            "badge": "Ancestral Cultural Heritage",
             "cta": "Discover Our Culture",
             "ctaSecondary": "View Gallery"
         },
@@ -26,9 +27,13 @@
             "communities": "42",
             "communitiesLabel": "Communities",
             "location": "Imbabura",
-            "locationLabel": "Province"
+            "locationLabel": "Province",
+            "sectionTitle": "Our Community in Numbers",
+            "sectionSubtitle": "Learn about the presence and reach of the Karanki people in Imbabura"
         },
         "features": {
+            "sectionTitle": "Explore Our Culture",
+            "sectionSubtitle": "Discover the fundamental pillars of our ancestral identity",
             "culture": {
                 "title": "Material Culture",
                 "description": "Hand-embroidered traditional clothing, crafts and textiles that reflect our ancestral identity"
@@ -48,16 +53,86 @@
         },
         "location": {
             "title": "Our Territory",
+            "subtitle": "Northern Highlands of Ecuador",
+            "badge": "📍 Geographic Location",
+            "description": "Our ancestral communities extend through the beautiful cantons of Ibarra, Otavalo, Antonio Ante and Pimampiro in the province of Imbabura, home to sacred mountains, fertile valleys and a rich cultural heritage.",
             "ibarra": "Ibarra: La Esperanza, Angochagua, Caranqui, San Antonio",
             "otavalo": "Otavalo: San Juan de Ilumán",
             "antonioAnte": "Antonio Ante: Andrade Marín",
-            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba"
+            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba",
+            "stats": {
+                "altitude": "Altitude",
+                "altitudeValue": "2,200 - 3,600 masl",
+                "climate": "Climate",
+                "climateValue": "Andean temperate",
+                "agriculture": "Agriculture",
+                "agricultureValue": "Corn, potato, quinoa",
+                "resources": "Resources",
+                "resourcesValue": "Rivers and lakes"
+            },
+            "cantons": "Ibarra, Otavalo, Antonio Ante and Pimampiro",
+            "territoryCta": {
+                "title": "Discover Our Festivities",
+                "description": "Explore Inti Raymi, Kulla Raymi, Pawkar Raymi and other ancestral celebrations that keep our connection with the cosmos alive",
+                "ctaTraditions": "View Festivities",
+                "ctaCosmovision": "Learn Worldview"
+            },
+            "sectionTitle": "Our Communities",
+            "sectionSubtitle": "Our communities extend through the cantons of Imbabura province"
         }
     },
     "culture": {
         "title": "Material Culture",
         "subtitle": "Our people's identity expressed in every garment and craft",
+        "hero": {
+            "vestimentaTag": "Traditional Clothing",
+            "artesaniasTag": "Handicrafts",
+            "idiomaTag": "Kichwa Language",
+            "patrimonio": "Living Heritage",
+            "identidad": "Ancestral Identity",
+            "vestimentaDesc": "Each garment tells a story of identity and ancestral tradition, passed down from generation to generation with love and respect",
+            "menCard": {
+                "title": "Men's Clothing",
+                "description": "Poncho, white pants, sandals and short-brimmed hat"
+            },
+            "womenCard": {
+                "title": "Women's Clothing",
+                "description": "Embroidered blouse, anaco, walka and colorful shawl"
+            },
+            "embroideryCard": {
+                "title": "Embroidery",
+                "description": "Textile art with geometric and natural motifs"
+            },
+            "languageCard": {
+                "title": "Kichwa",
+                "description": "Ancestral language in revitalization process"
+            }
+        },
+        "vestimenta": {
+            "title": "Traditional Clothing",
+            "men": "Men",
+            "menDesc": "Poncho, white pants, hat",
+            "women": "Women",
+            "womenDesc": "Embroidered blouse, anaco, walka",
+            "embroidery": "Embroidery",
+            "embroideryDesc": "Handmade with love",
+            "colors": "Colors",
+            "colorsDesc": "Ancestral meaning",
+            "yearsOfTradition": "Years of tradition",
+            "handmade": "Handmade",
+            "culturalIdentity": "Cultural identity"
+        },
+        "sections": {
+            "elements": "Elements of Our Clothing",
+            "elementsDesc": "Each element of our traditional clothing has a deep meaning and represents our connection with the earth and our ancestors",
+            "menClothing": "Men's Clothing",
+            "womenClothing": "Women's Clothing",
+            "craftsTitle": "Crafts and Textiles",
+            "craftsDesc": "Karanki traditional art is expressed through embroidery and textiles made with ancestral techniques"
+        },
         "clothing": {
+            "sectionTitle": "Elements of Our Traditional Clothing",
+            "sectionDescription": "Each element of our traditional clothing has a deep meaning and represents our connection with the earth and our ancestors",
             "men": {
                 "title": "Men's Clothing",
                 "description": "Karanki men wear white pants and white shirt, accompanied by a red wool poncho for special celebrations and a blue one for daily use. They complete their attire with white espadrilles and a short-brimmed hat.",
@@ -97,6 +172,11 @@
         "crafts": {
             "title": "Handicrafts",
             "subtitle": "The art of our hands",
+            "badges": {
+                "traditional": "Traditional",
+                "artisan": "Artisan",
+                "manual": "Handmade"
+            },
             "embroidery": {
                 "title": "Hand Embroidery",
                 "description": "Hand embroidery has traditionally been an important craft. Shirts are very diverse and colorful, using various colored threads on a piece of drawn white fabric where embroidery is meticulously done. Karanki women's embroidery has transcended the country's borders, participating in national and international fairs."
@@ -111,9 +191,32 @@
             }
         }
     },
+    "communityPage": {
+        "title": "Karanki Community",
+        "stats": {
+            "communities": "Communities",
+            "families": "Families",
+            "yearsOfHistory": "Years of History",
+            "livingTradition": "Living Tradition"
+        },
+        "tags": {
+            "minga": "Community Work",
+            "government": "Local Government",
+            "agriculture": "Ancestral Agriculture"
+        }
+    },
+    "traditionsPage": {
+        "title": "Ancestral Traditions"
+    },
     "community": {
         "title": "Community Organization",
-        "subtitle": "United by land and tradition",
+        "subtitle": "United by the earth and tradition",
+        "badges": {
+            "organization": "Community Organization",
+            "authority": "Authority",
+            "wisdom": "Wisdom",
+            "equity": "Equity"
+        },
         "organization": {
             "title": "Organizational Structure",
             "subtitle": "Democratic governance rooted in ancestral wisdom",
@@ -176,6 +279,10 @@
     "traditions": {
         "title": "Ancestral Traditions",
         "subtitle": "Celebrations that connect us with the cosmos and Pacha Mama",
+        "badges": {
+            "ancestral": "Ancestral Celebrations",
+            "main": "Main Festivities"
+        },
         "festivals": {
             "title": "Main Festivals",
             "subtitle": "The ceremonial calendar marks our connection with cosmic cycles",
@@ -262,6 +369,45 @@
             }
         }
     },
+    "cosmovisionPage": {
+        "hero": {
+            "title": "Karanki Cosmovision",
+            "subtitle": "Our sacred relationship with nature and the cosmos",
+            "description": "In our Andean cosmovision, everything is connected: the sky, the earth, the water, and the fire. Pacha Mama guides and protects us, teaching us to live in harmony with all beings that inhabit the Inti Pacha (upper world), Kay Pacha (present world), and Uku Pacha (inner world).",
+            "stats": {
+                "elements": "4 Elements",
+                "worlds": "3 Worlds",
+                "sacred": "Sacred"
+            }
+        },
+        "pachamama": {
+            "title": "Pacha Mama - Mother Earth",
+            "subtitle": "The source of all life and ancestral wisdom",
+            "intro": "Mother Earth is the center of our existence. She feeds us, protects us, and teaches us. We thank her for the harvests and ask her to receive in her womb the new seeds for their germination.",
+            "elements": {
+                "water": {
+                    "title": "Yaku - Water",
+                    "description": "Source of life flowing from the sacred mountains"
+                },
+                "air": {
+                    "title": "Wayra - Air",
+                    "description": "The vital breath that connects all beings"
+                },
+                "fire": {
+                    "title": "Nina - Fire",
+                    "description": "The transforming energy of the sun and volcanoes"
+                },
+                "earth": {
+                    "title": "Allpa - Earth",
+                    "description": "The sacred body of Pacha Mama"
+                }
+            },
+            "sacred": {
+                "title": "Sacred Places",
+                "description": "The Karanki worshiped great elevations as sacred mountains, spaces where Kay Pacha meets Inti Pacha."
+            }
+        }
+    },
     "cosmovision": {
         "title": "Andean Worldview",
         "subtitle": "Our relationship with the cosmos and Pacha Mama",
@@ -283,31 +429,84 @@
             },
             "animals": {
                 "title": "Animal Signs",
-                "dog": "Dogs announce visitors",
-                "condor": "The condor is a sacred messenger",
-                "owl": "The owl warns of changes"
+                "dogs": "The howling and scratching of dogs on the ground foretells the death of a community member in less than a month",
+                "condor": "The flight of the condor: if it flies alone, sign of death; if they fly in pairs, announcement of a marriage",
+                "owl": "The cry of the kuskunku (owl) announces death: in the morning, death is far away; in the afternoon or night, death is very close"
+            },
+            "nature": {
+                "title": "Natural Beliefs",
+                "puruhanta": "Hearing the sound of Puruhanta lagoon in Angochagua is a prelude that a flood with heavy rains will occur"
             }
         },
         "medicine": {
             "title": "Ancestral Medicine",
-            "subtitle": "Traditional healing knowledge",
-            "practices": {
+            "healing": {
                 "title": "Healing Practices",
-                "midwife": {
+                "midwifery": {
                     "title": "Traditional Midwifery",
-                    "description": "Midwives accompany women during pregnancy and childbirth using ancestral techniques and medicinal plants."
+                    "description": "Midwives provide greater security and confidence to their patients. They use concoctions made from long onion root and melloco to help with contractions and cervical dilation."
                 },
                 "limpia": {
-                    "title": "Spiritual Cleansing",
-                    "description": "Ritual cleansing with medicinal plants, eggs and other elements to remove negative energies."
+                    "title": "Cleansing of Bad Air",
+                    "description": "Performed to remove accumulated negative energies from places such as water reservoirs, waterfalls, lagoons, ravines and caverns, with chilca, rue, guinea pig, eggs, liquor and tobacco."
                 },
                 "espanto": {
-                    "title": "Fright Healing",
-                    "description": "Healing ritual for fright or soul loss, using prayers, herbs and spiritual baths."
+                    "title": "Lifting the Fright",
+                    "description": "Healing for children frightened by strong falls or animals, performing the 'Shungu, Shungu' (lift the spirit) with elements such as chilca, flowers, prayers and firm strikes to the ground."
                 }
             },
             "plants": {
                 "title": "Medicinal Plants",
+                "list": [
+                    {
+                        "name": "Plantain",
+                        "use": "Urinary infections, colds, flu"
+                    },
+                    {
+                        "name": "Nettle",
+                        "use": "Purification, muscle cold, cramps, dandruff"
+                    },
+                    {
+                        "name": "Flaxseed",
+                        "use": "Wounds, burns, relaxing massages"
+                    },
+                    {
+                        "name": "Corn silk",
+                        "use": "Stomach pain"
+                    },
+                    {
+                        "name": "Juana yuyu",
+                        "use": "Wounds, bruises, inflammations"
+                    },
+                    {
+                        "name": "Black nightshade",
+                        "use": "Reduce bruise swelling"
+                    },
+                    {
+                        "name": "Juyanguilla",
+                        "use": "Headaches, dizziness, bad wind"
+                    },
+                    {
+                        "name": "Mint",
+                        "use": "Mental and physical fatigue"
+                    },
+                    {
+                        "name": "Chamomile",
+                        "use": "Diarrhea, stomach cramps"
+                    },
+                    {
+                        "name": "Tifo",
+                        "use": "Stomach swelling"
+                    },
+                    {
+                        "name": "Anise",
+                        "use": "Digestion, menstrual periods"
+                    },
+                    {
+                        "name": "Apple",
+                        "use": "Diarrhea"
+                    }
+                ],
                 "ruda": {
                     "name": "Rue",
                     "use": "Cleansing and fright healing"
@@ -359,6 +558,13 @@
             }
         }
     },
+    "galleryPage": {
+        "title": "Karanki Cultural Gallery",
+        "stats": {
+            "photos": "Photographs",
+            "categories": "Categories"
+        }
+    },
     "gallery": {
         "title": "Photo Gallery",
         "subtitle": "Images of our culture and daily life",
@@ -369,6 +575,44 @@
             "landscape": "Landscape",
             "daily": "Daily Life",
             "crafts": "Handicrafts"
+        },
+        "images": {
+            "mountains": {
+                "title": "Sacred Mountains",
+                "description": "The Andes surrounding our ancestral territory"
+            },
+            "fields": {
+                "title": "Crop Fields",
+                "description": "Fertile lands where we grow our traditional foods"
+            },
+            "textiles": {
+                "title": "Ancestral Textiles",
+                "description": "Traditional clothing hand-embroidered with sacred symbols"
+            },
+            "celebration": {
+                "title": "Community Celebration",
+                "description": "Our festivals that keep tradition alive"
+            },
+            "village": {
+                "title": "Karanki Community",
+                "description": "Our homes in harmony with Pacha Mama"
+            },
+            "pottery": {
+                "title": "Traditional Crafts",
+                "description": "Handmade works that preserve our cultural identity"
+            },
+            "sunset": {
+                "title": "Karanki People",
+                "description": "Faces reflecting the wisdom of our ancestors"
+            },
+            "baskets": {
+                "title": "Woven Baskets",
+                "description": "Crafts made with ancestral techniques"
+            },
+            "dance": {
+                "title": "Traditional Dance",
+                "description": "Artistic expression connecting with our roots"
+            }
         }
     },
     "contact": {
@@ -408,10 +652,17 @@
         }
     },
     "footer": {
-        "description": "Promoting and preserving the cultural richness of rural communities",
-        "links": "Quick Links",
-        "social": "Connect With Us",
-        "rights": "All rights reserved"
+        "description": "Kichwa Karanki Indigenous People - Preserving over 500 years of ancestral culture in the heart of Imbabura, Ecuador.",
+        "links": "Links",
+        "contact": "Contact",
+        "location": "Imbabura, Ecuador",
+        "cantons": "Cantons: Ibarra, Otavalo, Antonio Ante, Pimampiro",
+        "email": "info@karanki.ec",
+        "phone": "+593 (06) 123-4567",
+        "mission": "Our Mission",
+        "missionText": "To preserve, strengthen, and disseminate our ancestral Karanki cultural identity, promoting respect for Pacha Mama and the wisdom of our elders.",
+        "learnMore": "Learn More",
+        "rights": "Kichwa Karanki Indigenous People. All rights reserved."
     },
     "calendar": {
         "title": "Festival Calendar",

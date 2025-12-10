@@ -17,18 +17,23 @@
         "hero": {
             "title": "Kichwa Karanki Runakuna",
             "subtitle": "Ñawpa taytakuna Ecuador jawa urkupi - Imbabura markapi",
+            "badge": "Ñawpa Kulturamanta Patrimonio",
             "cta": "Kawsayta Rikuna",
             "ctaSecondary": "Rikuna Wasita Rikuna"
         },
         "stats": {
-            "population": "6.360 - 20.000",
+            "population": "6,360 - 20,000",
             "populationLabel": "Runakuna",
             "communities": "42",
-            "communitiesLabel": "Ayllukuna",
+            "communitiesLabel": "Ayllu",
             "location": "Imbabura",
-            "locationLabel": "Marka"
+            "locationLabel": "Suyu",
+            "sectionTitle": "Ñukanchik Ayllu Yupaykuna",
+            "sectionSubtitle": "Yachay Karanki runakuna Imbabura suyupi"
         },
         "features": {
+            "sectionTitle": "Ñukanchik Yachay Kawsay",
+            "sectionSubtitle": "Taripay ñawpa kawsay kimsa hatun kaq",
             "culture": {
                 "title": "Kawsay Yachay",
                 "description": "Ñawpa churanakuna makiwan awaska, makiwan ruraska ruraykunawan ñukanchik kikin kay rikuchin"
@@ -47,17 +52,87 @@
             "description": "Kichwa Karanki runakuna ñawpa kawsay Ecuador jawa urkupi, Imbabura markapi. Caranqui, Cayambe, Otavalo hatun ayllumanta shamushka, ñukanchik kikin kayta ñawpa tarpuy ruraykunawan, ñawpa raymikunawan, Pacha Mama kawsaywan tantakushka wankachikunchik."
         },
         "location": {
-            "title": "Ñukanchik Allpakuna",
+            "title": "Ñukanchik Allpa",
+            "subtitle": "Ecuador Uraykuna Jawa",
+            "badge": "📍 Maypi Kanchik",
+            "description": "Ñukanchik yachay ayllu kawsaykuna mast'arikun sumaq markakuna Ibarra, Otavalo, Antonio Ante, Pimampiro nisqapi Imbabura suyupi, sumaq urqukuna, puquq urqukuna, hatun yachay kawsaywan.",
             "ibarra": "Ibarra: La Esperanza, Angochagua, Caranqui, San Antonio",
             "otavalo": "Otavalo: San Juan de Ilumán",
             "antonioAnte": "Antonio Ante: Andrade Marín",
-            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba"
+            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba",
+            "stats": {
+                "altitude": "Jatun Kay",
+                "altitudeValue": "2.200 - 3.600 metro",
+                "climate": "Pacha Timpu",
+                "climateValue": "Andi timpu",
+                "agriculture": "Tarpuy",
+                "agricultureValue": "Sara, papa, kinuwa",
+                "resources": "Imakuna",
+                "resourcesValue": "Mayukuna, quchakuna"
+            },
+            "cantons": "Ibarra, Otavalo, Antonio Ante, Pimampiro",
+            "territoryCta": {
+                "title": "Taripay Ñukanchik Raymi",
+                "description": "Yachay Inti Raymi, Kulla Raymi, Pawkar Raymi ima raymi ñawpamanta kay kawsayta ñawpaq kayta waqaychaspa",
+                "ctaTraditions": "Rikuy Raymi",
+                "ctaCosmovision": "Yachay Pachakawsay"
+            },
+            "sectionTitle": "Ñukanchik Ayllu",
+            "sectionSubtitle": "Ñukanchik ayllu mast'arikun Imbabura suyupi"
         }
     },
     "culture": {
         "title": "Kawsay Yachay",
         "subtitle": "Ñukanchik runakuna kikin kay sapa churana makiwan ruraskapi",
+        "hero": {
+            "vestimentaTag": "Ñawpa Churana",
+            "artesaniasTag": "Maki Ruray",
+            "idiomaTag": "Kichwa Simi",
+            "patrimonio": "Kawsaq Yachay",
+            "identidad": "Ñawpa Kikin Kay",
+            "vestimentaDesc": "Sapa churana willakun huk willakuyta kikin kaymanta, ñawpa yachaymanta, miray miraypi chuysasqa kuyaywan respetowanpas",
+            "menCard": {
+                "title": "Kari Churana",
+                "description": "Poncho, yurak pantalon, alpargatas, uchilla sombrero"
+            },
+            "womenCard": {
+                "title": "Warmi Churana",
+                "description": "Blusa awaska, anaco, walka, lulu chalina"
+            },
+            "embroideryCard": {
+                "title": "Awaskakuna",
+                "description": "Awaska yachay geometrico pacha riksiykunawan"
+            },
+            "languageCard": {
+                "title": "Kichwa",
+                "description": "Ñawpa simi musuq kawsarichisqa"
+            }
+        },
+        "vestimenta": {
+            "title": "Ñawpa Churana",
+            "men": "Karikuna",
+            "menDesc": "Poncho, yurak pantalon, sombrero",
+            "women": "Warmikuna",
+            "womenDesc": "Blusa awaska, anaco, walka",
+            "embroidery": "Awaskakuna",
+            "embroideryDesc": "Makiwan ruraska kuyaywan",
+            "colors": "Lulukuna",
+            "colorsDesc": "Ñawpa yachay",
+            "yearsOfTradition": "Watakuna yachay",
+            "handmade": "Makiwan ruraska",
+            "culturalIdentity": "Kawsay kikin kay"
+        },
+        "sections": {
+            "elements": "Ñukanchik Churana Imakuna",
+            "elementsDesc": "Sapa churana ima hatun yachayniyuq, allpawan, ñawpa runakunawan tantakuy",
+            "menClothing": "Kari Churana",
+            "womenClothing": "Warmi Churana",
+            "craftsTitle": "Maki Ruray Awaska",
+            "craftsDesc": "Karanki ñawpa yachay rikukun awaskakunapi, ñawpa yachaywan ruraska"
+        },
         "clothing": {
+            "sectionTitle": "Ñukanchik Churanakunapa Tukuy",
+            "sectionDescription": "Sapa churana hatun yuyayta charin, ñukanchik allpakunawan ñawpa taytakunawan tantanakuyta rikuchin",
             "men": {
                 "title": "Kari Churana",
                 "description": "Karanki karikuna yurak pantalonwan yurak camisawan churanakun, puka millma ponchowan raymi pachapak, ankas poncho sapa puncha churanakuna. Yurak alpargataswan, uchilla sombrero churikun.",
@@ -95,8 +170,13 @@
             "revitalizationDescription": "MOSEIB (Modelo de Educación Intercultural Bilingüe) ruraykanchik kikin kayta wankachinkapak, yachakukkunapa kichwa yachayta kallpachinkapak."
         },
         "crafts": {
-            "title": "Makiwan Ruraska",
+            "title": "Makiwan Rurashka",
             "subtitle": "Ñukanchik makikuna sumak rurashka",
+            "badges": {
+                "traditional": "Ñawpa",
+                "artisan": "Makiwan Rurashka",
+                "manual": "Makiwan"
+            },
             "embroidery": {
                 "title": "Makiwan Awaska",
                 "description": "Makiwan awaska ñawpamantarak hatun ruraymi karka. Camisakuna ancha sumak, achka lulun awaska yurak pacha awaska maytuka sumakta awashka. Karanki warmikunapa awaskakuna tukuy pachaman rishka, Ecuador ukupi, tukuy pachapi feriaspi."
@@ -111,15 +191,34 @@
             }
         }
     },
+    "communityPage": {
+        "title": "Karanki Ayllu",
+        "stats": {
+            "communities": "Ayllukunata",
+            "families": "Familiakunata",
+            "yearsOfHistory": "Watakunata Yachay",
+            "livingTradition": "Kawsay Yachay"
+        },
+        "tags": {
+            "minga": "Ayllu Minga",
+            "government": "Ayllu Kamachiy",
+            "agriculture": "Ñawpa Tarpuy"
+        }
+    },
+    "traditionsPage": {
+        "title": "Ñawpa Yachay Raymikuna"
+    },
     "community": {
         "title": "Ayllu Tantachiy",
         "subtitle": "Allpawan ñawpa yachaywan tantanakushka",
         "organization": {
             "title": "Tantachiy Rurashka",
+            "subtitle": "Kichwa Karanki runakuna ayllukunapi, comunakunapi kawsan, hatun kamachik Cabildo Tantachiy",
             "description": "Kichwa Karanki runakuna ayllukunapi, comunakunapi kawsan, hatun kamachik Cabildo Tantachiy. Ayllukuna corporacionespi, parroquial tantanakuykunapi tantachishka, chaymanta federacionespi tantachishka.",
             "cabildo": {
                 "title": "Cabildo Tantachiy",
-                "description": "Sapa wata, Cabildo Tantachiy shuk yuyayta ruran Asambleaman churanakapak. Rurashkakuna hatun tantakuykunapi yuyashka, chaypika tukuy yuyaykuna kawsay wiñachinakapak yuyashka."
+                "description": "Sapa wata, Cabildo Tantachiy shuk yuyayta ruran Asambleaman churanakapak. Rurashkakuna hatun tantakuykunapi yuyashka, chaypika tukuy yuyaykuna kawsay wiñachinakapak yuyashka.",
+                "roles": "Presidente, Vice-presidente, Tesorero, Secretario"
             },
             "elders": {
                 "title": "Ruku Taytakunapa Tantachiy",
@@ -132,13 +231,19 @@
         },
         "minga": {
             "title": "Minga",
-            "description": "Minga (minkay) kawsay ruraymi chaypika tukuy runakuna Cabildowan tukuykunapak allinta rurankuna: ñankuna alliyachiy, ayllu wasi rikuy, tantanakakunata rurashka. Minga tantay llankaymi chaypika tukuykuna kushikunawan."
+            "description": "Minga (minkay) kawsay ruraymi chaypika tukuy runakuna Cabildowan tukuykunapak allinta rurankuna: ñankuna alliyachiy, ayllu wasi rikuy, tantanakakunata rurashka. Minga tantay llankaymi chaypika tukuykuna kushikunawan.",
+            "principleTitle": "Hatun Yachay",
+            "principle": "Tantay llankay reciprocidad, yanapanakuy, ayllupak yanapanakuy ruraymanta.",
+            "activitiesTitle": "Tukuy Pacha Ruray",
+            "activities": "Ñankuna alliyachiy, ayllu wasi rikuy, ayllu rurashka wasi, tarpuy llankay tantay."
         },
         "economy": {
             "title": "Ayllu Qullqi Rurashka",
+            "subtitle": "Ñawpa qullqi rurashkakuna ayllukunata yanapakun",
             "agriculture": {
                 "title": "Tarpuy",
                 "description": "Hatun rurashka tarpuypa. Urku jatunkunapi chiri pacha mikuykunata tarpunkuna: trigu, cebada, papa, uka; urakunapi sarataranku kitipikunaman apichinakapak.",
+                "cropsTitle": "Hatun Tarpushka",
                 "crops": [
                     "Papakuna",
                     "Sara",
@@ -157,7 +262,8 @@
             },
             "tourism": {
                 "title": "Ayllu Turismo",
-                "description": "Mushuk qullqi rishka turismo comunitario, chaypika yachaykunata Ecuador ukumanta, hawa pachata rikukkunaman rikuchin. La Magdalena ayllu mikuy allinta kunan, agrotunismo, caballopi purinakunata ruran."
+                "description": "Mushuk qullqi rishka turismo comunitario, chaypika yachaykunata Ecuador ukumanta, hawa pachata rikukkunaman rikuchin.",
+                "example": "La Magdalena ayllu mikuy allinta kunan, agroturismo, caballopi purinakunata ruran."
             },
             "barter": {
                 "title": "Trueque",
@@ -256,6 +362,45 @@
             }
         }
     },
+    "cosmovisionPage": {
+        "hero": {
+            "title": "Karanki Rikuy",
+            "subtitle": "Ñukanchik sagradu tantanakuy kawsay pacha pachakunawan",
+            "description": "Ñukanchik andino rikuypi, tukuy tantanakushka: janaj pacha, kay pacha, yaku, nina. Pacha Mama ñukanchikta pushin, amachin, yachachin tukuy kawsakkunawan tantalla kawsayta: Inti Pacha (janaj pacha), Kay Pacha (kunan pacha), Uku Pacha (ukupi pacha).",
+            "stats": {
+                "elements": "4 Tukuy Imakunapash",
+                "worlds": "3 Pachakunapash",
+                "sacred": "Sagradu"
+            }
+        },
+        "pachamama": {
+            "title": "Pacha Mama - Mama Allpa",
+            "subtitle": "Tukuy kawsay, ñawpa yachay pukyu",
+            "intro": "Mama Allpa ñukanchik kawsaymanta chawpi. Payka ñukanchikta mikuchin, amachin, yachachin. Paykunaman yupaychanchik murukunamanta, mañakunchik ukun murukunata chaskikunata wiñachinapaj.",
+            "elements": {
+                "water": {
+                    "title": "Yaku - Unu",
+                    "description": "Kawsay pukyu sagradu urkukunamanta purin"
+                },
+                "air": {
+                    "title": "Wayra - Samay",
+                    "description": "Kawsay samay tukuy kawsakkunata tantachin"
+                },
+                "fire": {
+                    "title": "Nina - Ruphay",
+                    "description": "Inti, urku ninamanta tikray kallpa"
+                },
+                "earth": {
+                    "title": "Allpa - Pacha",
+                    "description": "Pacha Mama sagradu aycha"
+                }
+            },
+            "sacred": {
+                "title": "Sagradu Kitikuna",
+                "description": "Karanki runakuna hatun urkukunata sagradu urku kashkata adoraran, Kay Pacha Inti Pachawan tuparin."
+            }
+        }
+    },
     "cosmovision": {
         "title": "Karanki Pacha Yachay",
         "subtitle": "Ñukanchik sumak tantakuy Pacha Mamaawan, pacha ukuwan",
@@ -351,8 +496,8 @@
                         "use": "Mikhuna allichiy, warmi killakuna"
                     },
                     {
-                        "name": "Cedrón",
-                        "use": "Rupay, wiksa llambuchiy, llakikuy"
+                        "name": "Manzana",
+                        "use": "Ishpa"
                     }
                 ]
             }
@@ -379,6 +524,13 @@
             "constitution2008": "2008 Constitución, 57 artículo, Derechos Colectivos rikuchin, ñawpa rantiy truequeta mushukyachishpa kikin kayta kallpachinkapak yanapashpa"
         }
     },
+    "galleryPage": {
+        "title": "Karanki Kulturamanta Rikuykuna",
+        "stats": {
+            "photos": "Rikunakuna",
+            "categories": "Rakikuna"
+        }
+    },
     "gallery": {
         "title": "Kawsay Rikuna Wasi",
         "subtitle": "Ñukanchik runakuna, allpakuna, ñawpa yachay rikuykuna",
@@ -389,6 +541,44 @@
             "crafts": "Makiwan Rurashka",
             "festivals": "Raymikuna",
             "clothing": "Churanakuna"
+        },
+        "images": {
+            "mountains": {
+                "title": "Sagradu Urkukuna",
+                "description": "Ñukanchik ñawpa llaktata muyurishka Andes urkukuna"
+            },
+            "fields": {
+                "title": "Tarpuy Allpakuna",
+                "description": "Miray allpakuna maypitaj ñawpa mikhunata tarpunchik"
+            },
+            "textiles": {
+                "title": "Ñawpa Away",
+                "description": "Makiwan sagradu unanchawan churashka ñawpa churanakuna"
+            },
+            "celebration": {
+                "title": "Ayllu Raymiy",
+                "description": "Ñukanchik raymikuna kawsayta wankachin"
+            },
+            "village": {
+                "title": "Karanki Ayllu",
+                "description": "Ñukanchik wasikuna Pacha Mamawan tantalla"
+            },
+            "pottery": {
+                "title": "Ñawpa Makiwan Rurachishka",
+                "description": "Makiwan ruray ñukanchik kulturata wankachin"
+            },
+            "sunset": {
+                "title": "Karanki Runakuna",
+                "description": "Uyakuna ñawpa taytakunamanta yachayta rikuchin"
+            },
+            "baskets": {
+                "title": "Awashka Shigrakuna",
+                "description": "Ñawpa yachaywanmi rurashka"
+            },
+            "dance": {
+                "title": "Ñawpa Tushuy",
+                "description": "Yachay rikuchiy ñukanchik sapiñikkunawan tantachin"
+            }
         }
     },
     "contact": {
@@ -431,10 +621,16 @@
         }
     },
     "footer": {
-        "description": "Kichwa Karanki Runakuna - Pichka pachak watakunamanta ñawpa kawsayta wankachishpa Ecuador jawa urkupi",
+        "description": "Kichwa Karanki Runakuna - Pichka pachak watakunamanta ñawpa kawsayta wankachishpa Imbabura chawpipi, Ecuador.",
         "links": "Tantachikuna",
-        "social": "Tantakuna",
-        "rights": "Tukuy derecho wankachishka",
-        "acknowledgment": "Ñawpa taytakunata yupaychiypi, shamuk wawakuna yupaychakuy"
+        "contact": "Willay",
+        "location": "Imbabura, Ecuador",
+        "cantons": "Kantunkuna: Ibarra, Otavalo, Antonio Ante, Pimampiro",
+        "email": "info@karanki.ec",
+        "phone": "+593 (06) 123-4567",
+        "mission": "Ñukanchik Ruray",
+        "missionText": "Ñawpa Karanki kulturata wankachina, kallpachana, tantachina, Pacha Mamata yupaychakushpa, yayayakunapa yachaykunata kasukushpa.",
+        "learnMore": "Ashwan Yachay",
+        "rights": "Kichwa Karanki Runakuna. Tukuy derecho wankachishka."
     }
 }

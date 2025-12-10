@@ -13,7 +13,7 @@ import {
 
 const FestivalCalendar = () => {
     const { t } = useTranslation();
-    const [selectedMonth, setSelectedMonth] = useState(null);
+    const [selectedFestival, setSelectedFestival] = useState(null);
 
     const festivals = [
         {
@@ -128,7 +128,7 @@ const FestivalCalendar = () => {
                                     transition={{ delay: index * 0.2 }}
                                     whileHover={{ scale: 1.05, y: -10 }}
                                     className={`relative bg-white rounded-2xl p-6 shadow-neo-1 hover:shadow-neo-2 transition-all duration-300 border-2 ${colors.border} cursor-pointer group`}
-                                    onClick={() => setSelectedMonth(selectedMonth === festival.month ? null : festival.month)}
+                                    onClick={() => setSelectedFestival(festival)}
                                 >
                                     {/* Date Badge */}
                                     <div className={`absolute -top-4 left-1/2 transform -translate-x-1/2 ${colors.bg} ${colors.border} border-2 rounded-full px-4 py-2 shadow-lg`}>
@@ -167,72 +167,94 @@ const FestivalCalendar = () => {
                 </div>
             </div>
 
-            {/* Detailed Festival View */}
+            {/* Modal de detalles del festival */}
             <AnimatePresence>
-                {selectedMonth && (
-                    <motion.div
-                        initial={{ opacity: 0, height: 0 }}
-                        animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }}
-                        className="overflow-hidden"
-                    >
-                        {getFestivalsForMonth(selectedMonth).map((festival) => {
-                            const colors = getColorClasses(festival.color);
-                            return (
-                                <motion.div
-                                    key={festival.id}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    exit={{ opacity: 0, y: -20 }}
-                                    className={`bg-gradient-to-br ${colors.bg} to-white rounded-3xl p-8 shadow-neo-2 border-2 ${colors.border}`}
+                {selectedFestival && (
+                    <>
+                        {/* Overlay */}
+                        <motion.div
+                            initial={{ opacity: 0 }}
+                            animate={{ opacity: 1 }}
+                            exit={{ opacity: 0 }}
+                            onClick={() => setSelectedFestival(null)}
+                            className="fixed inset-0 bg-black/60 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+                        >
+                            {/* Modal content */}
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9, y: 20 }}
+                                animate={{ opacity: 1, scale: 1, y: 0 }}
+                                exit={{ opacity: 0, scale: 0.9, y: 20 }}
+                                onClick={(e) => e.stopPropagation()}
+                                className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-white rounded-3xl shadow-2xl"
+                            >
+                                {/* Botón cerrar */}
+                                <button
+                                    onClick={() => setSelectedFestival(null)}
+                                    className="absolute top-4 right-4 z-10 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center text-gray-600 hover:text-gray-900 hover:bg-white transition-all shadow-lg"
                                 >
-                                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                                        {/* Image */}
-                                        <div className="relative rounded-2xl overflow-hidden shadow-lg group">
-                                            <img 
-                                                src={festival.image} 
-                                                alt={festival.name}
-                                                className="w-full h-80 object-cover transform group-hover:scale-110 transition-transform duration-500"
-                                            />
-                                            <div className={`absolute inset-0 bg-gradient-to-t from-${festival.color}-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300`}></div>
+                                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                                    </svg>
+                                </button>
+
+                                {/* Imagen del festival */}
+                                <div className="relative h-64 md:h-80 overflow-hidden rounded-t-3xl">
+                                    <img 
+                                        src={selectedFestival.image} 
+                                        alt={selectedFestival.name}
+                                        className="w-full h-full object-cover"
+                                    />
+                                    <div className={`absolute inset-0 bg-gradient-to-t from-${selectedFestival.color}-900/80 to-transparent`}></div>
+                                    
+                                    {/* Fecha en badge flotante */}
+                                    <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-sm rounded-2xl px-6 py-3 shadow-xl">
+                                        <p className={`text-2xl font-bold ${getColorClasses(selectedFestival.color).text}`}>
+                                            {selectedFestival.day}
+                                        </p>
+                                        <p className="text-sm text-gray-600 font-medium">
+                                            {months[selectedFestival.month - 1].name}
+                                        </p>
+                                    </div>
+                                </div>
+
+                                {/* Contenido del modal */}
+                                <div className="p-8">
+                                    <div className="flex items-center space-x-4 mb-6">
+                                        <div className={`w-16 h-16 ${getColorClasses(selectedFestival.color).bg} rounded-2xl flex items-center justify-center border-2 ${getColorClasses(selectedFestival.color).border}`}>
+                                            <FontAwesomeIcon icon={selectedFestival.icon} className={`text-3xl ${getColorClasses(selectedFestival.color).icon}`} />
                                         </div>
-
-                                        {/* Content */}
-                                        <div className="flex flex-col justify-center">
-                                            <div className="flex items-center space-x-4 mb-4">
-                                                <div className={`w-16 h-16 ${colors.bg} rounded-full flex items-center justify-center border-2 ${colors.border}`}>
-                                                    <FontAwesomeIcon icon={festival.icon} className={`text-3xl ${colors.icon}`} />
-                                                </div>
-                                                <div>
-                                                    <h3 className={`text-3xl font-display font-bold ${colors.text}`}>
-                                                        {festival.name}
-                                                    </h3>
-                                                    <p className="text-gray-600">
-                                                        {festival.day} de {months[festival.month - 1].name}
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                            <p className="text-gray-700 leading-relaxed mb-6 text-lg">
-                                                {festival.description}
+                                        <div>
+                                            <h3 className={`text-4xl font-display font-bold ${getColorClasses(selectedFestival.color).text}`}>
+                                                {selectedFestival.name}
+                                            </h3>
+                                            <p className="text-gray-600 text-lg">
+                                                {selectedFestival.day} de {months[selectedFestival.month - 1].name}
                                             </p>
-
-                                            <button
-                                                onClick={() => setSelectedMonth(null)}
-                                                className={`px-6 py-3 ${colors.bg} ${colors.text} rounded-xl font-semibold hover:${colors.glow} transition-all duration-300 border-2 ${colors.border}`}
-                                            >
-                                                Cerrar detalles
-                                            </button>
                                         </div>
                                     </div>
-                                </motion.div>
-                            );
-                        })}
-                    </motion.div>
+
+                                    <div className={`${getColorClasses(selectedFestival.color).bg} rounded-2xl p-6 mb-6 border ${getColorClasses(selectedFestival.color).border}`}>
+                                        <p className="text-gray-700 leading-relaxed text-lg">
+                                            {selectedFestival.description}
+                                        </p>
+                                    </div>
+
+                                    <div className="flex justify-center">
+                                        <button
+                                            onClick={() => setSelectedFestival(null)}
+                                            className={`px-8 py-4 bg-gradient-to-r ${getColorClasses(selectedFestival.color).bg} ${getColorClasses(selectedFestival.color).text} rounded-xl font-semibold hover:shadow-lg transition-all duration-300 border-2 ${getColorClasses(selectedFestival.color).border}`}
+                                        >
+                                            Cerrar
+                                        </button>
+                                    </div>
+                                </div>
+                            </motion.div>
+                        </motion.div>
+                    </>
                 )}
             </AnimatePresence>
 
-            {/* Month Grid View (Alternative) */}
+            {/* Vista Anual con Modal */}
             <div className="mt-16">
                 <h4 className="text-2xl font-bold text-center mb-8 text-gray-800">
                     {t('calendar.yearView', 'Vista Anual')}
@@ -251,7 +273,7 @@ const FestivalCalendar = () => {
                                         ? `${getColorClasses(monthFestivals[0].color).bg} ${getColorClasses(monthFestivals[0].color).border} cursor-pointer shadow-md hover:shadow-lg` 
                                         : 'bg-gray-50 border-gray-200'
                                 }`}
-                                onClick={() => hasFestival && setSelectedMonth(month.num)}
+                                onClick={() => hasFestival && setSelectedFestival(monthFestivals[0])}
                             >
                                 <p className={`text-center font-semibold ${hasFestival ? getColorClasses(monthFestivals[0].color).text : 'text-gray-400'}`}>
                                     {month.name}

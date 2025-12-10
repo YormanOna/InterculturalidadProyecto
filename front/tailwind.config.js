@@ -97,6 +97,19 @@ export default {
           600: '#E54D7F',
           700: '#CC3E6E',
         },
+        // Cream - Color de fondo suave
+        cream: {
+          50: '#FFFEF9',
+          100: '#FFFCF2',
+          200: '#FFF9E6',
+          300: '#FFF5D9',
+          400: '#FFF1CC',
+          500: '#FFEDBF',
+          600: '#F4E4B3',
+          700: '#E8D9A6',
+          800: '#DDCE9A',
+          900: '#D1C38D',
+        },
       },
       fontFamily: {
         sans: ['Inter', 'Manrope', 'system-ui', 'sans-serif'],

@@ -23,11 +23,18 @@ const InfoCard = ({
         >
             {icon && (
                 <div className="mb-4">
-                    <div className={`w-12 h-12 bg-${color}-500 rounded-lg flex items-center justify-center shadow-md`}>
+                    <div className={`w-16 h-16 rounded-2xl flex items-center justify-center shadow-lg ${
+                        color === 'terracotta' ? 'bg-terracotta-600' :
+                        color === 'gold-solar' ? 'bg-gold-solar-500' :
+                        color === 'turquoise-glaciar' ? 'bg-turquoise-glaciar-500' :
+                        color === 'purple-andino' ? 'bg-purple-andino-600' :
+                        color === 'green-chakra' ? 'bg-green-chakra-500' :
+                        'bg-indigo-nocturno-600'
+                    }`}>
                         {typeof icon === 'object' && icon.prefix && icon.iconName ? (
-                            <FontAwesomeIcon icon={icon} className="text-2xl text-white" />
+                            <FontAwesomeIcon icon={icon} className="text-3xl text-white" />
                         ) : (
-                            <span className="text-2xl text-white">{icon}</span>
+                            <span className="text-3xl text-white">{icon}</span>
                         )}
                     </div>
                 </div>

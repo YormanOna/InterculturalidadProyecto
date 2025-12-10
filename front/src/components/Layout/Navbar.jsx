@@ -20,9 +20,9 @@ const Navbar = () => {
     ];
 
     const languages = [
-        { code: 'es', label: t('language.spanish'), flag: '🇪🇸' },
-        { code: 'en', label: t('language.english'), flag: '🇬🇧' },
-        { code: 'qu', label: t('language.kichwa'), flag: '🏔️' },
+        { code: 'es', label: 'Español', flag: '🇪🇸', nativeName: 'Español' },
+        { code: 'en', label: 'English', flag: '🇬🇧', nativeName: 'English' },
+        { code: 'qu', label: 'Kichwa', flag: '🏔️', nativeName: 'Kichwa' },
     ];
 
     const changeLanguage = (lng) => {
@@ -66,32 +66,64 @@ const Navbar = () => {
                         <div className="relative">
                             <button
                                 onClick={() => setLangOpen(!langOpen)}
-                                className="flex items-center space-x-2 px-3 py-2 rounded-lg bg-gold-50 hover:bg-gold-100 transition-colors border border-gold-200"
+                                className="flex items-center space-x-2 px-4 py-2 rounded-xl bg-gradient-to-r from-gold-solar-50 to-gold-solar-100 hover:from-gold-solar-100 hover:to-gold-solar-200 transition-all duration-300 border-2 border-gold-solar-300 shadow-sm hover:shadow-md group"
                             >
-                                <Globe className="w-5 h-5 text-gold-700" />
-                                <span className="text-sm font-medium text-gold-700 hidden sm:inline">
+                                <Globe className="w-5 h-5 text-gold-solar-700 group-hover:rotate-12 transition-transform duration-300" />
+                                <span className="text-2xl">
                                     {languages.find(l => l.code === i18n.language)?.flag || '🌍'}
+                                </span>
+                                <span className="text-sm font-semibold text-gold-solar-800 hidden sm:inline">
+                                    {languages.find(l => l.code === i18n.language)?.nativeName || 'Language'}
                                 </span>
                             </button>
 
                             <AnimatePresence>
                                 {langOpen && (
                                     <motion.div
-                                        initial={{ opacity: 0, y: -10 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: -10 }}
-                                        className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-xl py-2 border border-cream-200"
+                                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                                        transition={{ duration: 0.2 }}
+                                        className="absolute right-0 mt-3 w-56 bg-white rounded-2xl shadow-2xl py-2 border-2 border-gold-solar-200 overflow-hidden"
                                     >
-                                        {languages.map((lang) => (
-                                            <button
+                                        {languages.map((lang, index) => (
+                                            <motion.button
                                                 key={lang.code}
+                                                initial={{ opacity: 0, x: -20 }}
+                                                animate={{ opacity: 1, x: 0 }}
+                                                transition={{ delay: index * 0.05 }}
                                                 onClick={() => changeLanguage(lang.code)}
-                                                className={`w-full text-left px-4 py-2 hover:bg-terracotta-50 transition-colors flex items-center space-x-3 ${i18n.language === lang.code ? 'bg-terracotta-50 text-terracotta-700' : 'text-gray-700'
-                                                    }`}
+                                                className={`w-full text-left px-4 py-3 transition-all duration-200 flex items-center space-x-3 group ${
+                                                    i18n.language === lang.code 
+                                                        ? 'bg-gradient-to-r from-terracotta-50 to-gold-solar-50 border-l-4 border-terracotta-600' 
+                                                        : 'hover:bg-gradient-to-r hover:from-cream-50 hover:to-gold-solar-50 hover:border-l-4 hover:border-gold-solar-400'
+                                                }`}
                                             >
-                                                <span className="text-xl">{lang.flag}</span>
-                                                <span className="font-medium">{lang.label}</span>
-                                            </button>
+                                                <span className="text-3xl group-hover:scale-110 transition-transform duration-200">
+                                                    {lang.flag}
+                                                </span>
+                                                <div className="flex flex-col">
+                                                    <span className={`font-bold text-sm ${
+                                                        i18n.language === lang.code 
+                                                            ? 'text-terracotta-700' 
+                                                            : 'text-gray-700 group-hover:text-terracotta-600'
+                                                    }`}>
+                                                        {lang.nativeName}
+                                                    </span>
+                                                    <span className="text-xs text-gray-500">
+                                                        {lang.label}
+                                                    </span>
+                                                </div>
+                                                {i18n.language === lang.code && (
+                                                    <motion.div
+                                                        initial={{ scale: 0 }}
+                                                        animate={{ scale: 1 }}
+                                                        className="ml-auto"
+                                                    >
+                                                        <div className="w-2 h-2 rounded-full bg-terracotta-600"></div>
+                                                    </motion.div>
+                                                )}
+                                            </motion.button>
                                         ))}
                                     </motion.div>
                                 )}
