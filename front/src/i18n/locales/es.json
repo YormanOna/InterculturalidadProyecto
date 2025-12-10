@@ -4,6 +4,7 @@
         "culture": "Cultura",
         "community": "Comunidad",
         "traditions": "Tradiciones",
+        "cosmovision": "Cosmovisión",
         "gallery": "Galería",
         "contact": "Contacto"
     },
@@ -14,165 +15,385 @@
     },
     "home": {
         "hero": {
-            "title": "Descubre la Riqueza de Nuestras Comunidades Rurales",
-            "subtitle": "Un viaje a través de la cultura, tradiciones y sabiduría ancestral",
-            "cta": "Explorar Cultura",
+            "title": "Pueblo Indígena Kichwa Karanki",
+            "subtitle": "Guardianes ancestrales de la Sierra Norte del Ecuador - Provincia de Imbabura",
+            "cta": "Descubre Nuestra Cultura",
             "ctaSecondary": "Ver Galería"
+        },
+        "stats": {
+            "population": "6,360 - 20,000",
+            "populationLabel": "Habitantes",
+            "communities": "42",
+            "communitiesLabel": "Comunidades",
+            "location": "Imbabura",
+            "locationLabel": "Provincia"
         },
         "features": {
             "culture": {
-                "title": "Cultura Viva",
-                "description": "Conoce las prácticas culturales, vestimenta tradicional y valores que definen nuestra identidad"
+                "title": "Cultura Material",
+                "description": "Vestimenta tradicional bordada a mano, artesanías y textiles que reflejan nuestra identidad ancestral"
             },
             "community": {
-                "title": "Vida Comunitaria",
-                "description": "Descubre cómo vivimos, trabajamos y celebramos juntos en armonía con la naturaleza"
+                "title": "Organización Comunitaria",
+                "description": "42 comunidades organizadas democráticamente bajo el sistema del Consejo de Cabildo"
             },
             "traditions": {
-                "title": "Tradiciones Ancestrales",
-                "description": "Explora nuestras festividades, rituales y la sabiduría transmitida de generación en generación"
+                "title": "Festividades Ancestrales",
+                "description": "Inti Raymi, Kulla Raymi y Paukar Raymi: celebraciones que mantienen viva nuestra conexión con el cosmos"
             }
         },
         "about": {
-            "title": "Nuestra Misión",
-            "description": "Promover y preservar la riqueza cultural de las comunidades rurales, compartiendo nuestra historia, tradiciones y forma de vida con el mundo. Creemos en la importancia de mantener vivas nuestras raíces mientras abrazamos el futuro."
+            "title": "¿Quiénes Somos?",
+            "description": "El pueblo indígena kichwa Karanki es una antigua cultura que habita la Sierra Norte del Ecuador, específicamente en la provincia de Imbabura. Descendientes de los señoríos de Caranqui, Cayambe y Otavalo, mantenemos viva nuestra identidad a través de prácticas agrícolas tradicionales, festividades ancestrales y una cosmovisión profundamente conectada con la Pacha Mama (Madre Tierra)."
+        },
+        "location": {
+            "title": "Nuestro Territorio",
+            "ibarra": "Ibarra: La Esperanza, Angochagua, Caranqui, San Antonio",
+            "otavalo": "Otavalo: San Juan de Ilumán",
+            "antonioAnte": "Antonio Ante: Andrade Marín",
+            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba"
         }
     },
     "culture": {
-        "title": "Nuestra Cultura",
-        "subtitle": "La identidad de nuestro pueblo",
+        "title": "Cultura Material",
+        "subtitle": "La identidad de nuestro pueblo expresada en cada prenda y artesanía",
         "clothing": {
-            "title": "Vestimenta Tradicional",
-            "description": "Cada prenda cuenta una historia. Nuestros textiles son tejidos a mano con técnicas ancestrales, utilizando colores naturales que representan elementos de la naturaleza: el verde de las montañas, el azul del cielo, el rojo de la tierra fértil."
+            "men": {
+                "title": "Vestimenta Masculina",
+                "description": "Los hombres Karanki visten pantalones blancos y camisa blanca, acompañados de un poncho de lana roja para celebraciones especiales y uno de color azul para el uso diario. Completan su atuendo con alpargatas blancas y un sombrero de ala corta.",
+                "items": [
+                    "Pantalones blancos",
+                    "Camisa blanca",
+                    "Poncho rojo (ceremonias)",
+                    "Poncho azul (diario)",
+                    "Alpargatas blancas",
+                    "Sombrero de ala corta"
+                ]
+            },
+            "women": {
+                "title": "Vestimenta Femenina",
+                "description": "Las mujeres visten una blusa blanca bordada en multicolor de un solo cuerpo que llega hasta un cuarto más abajo de la rodilla. Se cubren con el anaco de color azul o negro sujetado a la cintura con fajas de colores. Adornan su cuello con las walka (collares de color dorado) y sus muñecas con manilas (pulseras de coral rojo). Completan el atuendo con sombrero negro, alpargatas negras y chalina de colores relucientes.",
+                "items": [
+                    "Blusa blanca bordada multicolor",
+                    "Anaco azul o negro",
+                    "Fajas de colores",
+                    "Walka (collares dorados)",
+                    "Manilas (pulseras de coral rojo)",
+                    "Sombrero negro",
+                    "Alpargatas negras",
+                    "Chalina de colores"
+                ]
+            }
         },
         "language": {
-            "title": "Lengua Materna",
-            "description": "El kichwa es más que un idioma, es la voz de nuestros ancestros. A través de él transmitimos conocimientos, historias y la cosmovisión andina que nos conecta con la Pachamama."
-        },
-        "values": {
-            "title": "Valores Comunitarios",
-            "description": "Vivimos bajo principios de reciprocidad (ayni), respeto mutuo y armonía con la naturaleza. La comunidad es nuestra familia extendida, donde todos nos apoyamos.",
-            "list": {
-                "ayni": "Ayni - Reciprocidad y ayuda mutua",
-                "minka": "Minka - Trabajo comunitario",
-                "respect": "Respeto a la Pachamama",
-                "solidarity": "Solidaridad entre vecinos"
-            }
+            "title": "Lengua Kichwa",
+            "subtitle": "La voz de nuestros ancestros",
+            "description": "El kichwa es el idioma oficial entre los pobladores del pueblo Karanki, mientras el castellano es considerado la segunda lengua. Originalmente, los Karanki habrían hablado una lengua de la familia Barbacoan, que fue reemplazada por el kichwa durante la expansión incaica.",
+            "status": "Estado Actual",
+            "statusDescription": "Actualmente enfrentamos desafíos como la actitud negativa hacia el Kichwa y la falta de políticas públicas coherentes para su promoción.",
+            "revitalization": "Revitalización",
+            "revitalizationDescription": "Implementamos el Modelo de Educación Intercultural Bilingüe (MOSEIB) para preservar la identidad cultural y fortalecer la competencia lingüística en Kichwa de los estudiantes."
         },
         "crafts": {
             "title": "Artesanías",
-            "description": "Nuestras manos crean arte funcional: cerámicas, tejidos, cestería. Cada pieza lleva el alma del artesano y la sabiduría de generaciones."
+            "subtitle": "El arte de nuestras manos",
+            "embroidery": {
+                "title": "Bordado a Mano",
+                "description": "El bordado a mano ha sido tradicionalmente una artesanía importante. Las camisas son muy diversas y coloridas, utilizando diversos hilos de colores en un pedazo de tela blanca dibujada donde minuciosamente se va bordando. Los bordados de las mujeres Karanki han trascendido las fronteras del país, participando en ferias nacionales e internacionales."
+            },
+            "beadwork": {
+                "title": "Trabajo con Mullos",
+                "description": "En la gente mayor de la tercera edad se conserva el arte de recoger los diminutos mullos rojos en el hilo para realizar las manillas que las mujeres mayores se ponen."
+            },
+            "tablecloths": {
+                "title": "Bordado de Manteles",
+                "description": "Se elabora bordado de manteles utilizando hilo de lana de diferentes colores, tela poliéster, encajes, telas de lienzo, agujas y moldes redondos de vitela."
+            }
         }
     },
     "community": {
-        "title": "Nuestra Comunidad",
+        "title": "Organización Comunitaria",
         "subtitle": "Unidos por la tierra y la tradición",
-        "daily": {
-            "title": "Vida Cotidiana",
-            "description": "Nuestros días comienzan con el canto del gallo y el aroma del maíz tostado. Trabajamos la tierra, cuidamos los animales y compartimos momentos en familia. La vida fluye al ritmo de las estaciones y los ciclos de la naturaleza."
-        },
-        "agriculture": {
-            "title": "Agricultura Ancestral",
-            "description": "Cultivamos la tierra como lo hicieron nuestros abuelos, respetando los ciclos lunares y las señales de la naturaleza. Maíz, papa, quinua y fréjol son nuestros alimentos sagrados.",
-            "crops": {
-                "corn": "Maíz - El grano de oro",
-                "potato": "Papa - Regalo de los Andes",
-                "quinoa": "Quinua - Grano madre",
-                "beans": "Fréjol - Compañero del maíz"
+        "organization": {
+            "title": "Estructura Organizativa",
+            "description": "El pueblo kichwa Karanki organiza su vida social en comunidades o comunas, siendo la máxima autoridad el Consejo de Cabildo. Las comunidades se organizan generalmente en corporaciones o uniones parroquiales, que a su vez se agrupan en federaciones.",
+            "cabildo": {
+                "title": "Consejo de Cabildo",
+                "description": "Cada año, el Consejo de Cabildo elabora un plan y lo pone a consideración de la Asamblea para su aprobación. Las actividades se planifican en asambleas generales, espacio donde se toman las decisiones para el desarrollo comunitario."
+            },
+            "elders": {
+                "title": "Consejo de Ancianos",
+                "description": "Existe un Consejo de Ancianos cuya función es ayudar con su sabiduría a solucionar asuntos relacionados con problemas de robo, pandillas, conflictos de tierras, enemistades vecinales o chismes."
+            },
+            "women": {
+                "title": "Rol de las Mujeres",
+                "description": "Las mujeres son las encargadas de transmitir los conocimientos de manera práctica por medio de coplas y danzas."
             }
         },
-        "organization": {
-            "title": "Organización Social",
-            "description": "Nuestra comunidad se organiza democráticamente. Las decisiones importantes se toman en asambleas donde cada voz cuenta. Los líderes son elegidos por su sabiduría y compromiso con el bien común."
+        "minga": {
+            "title": "La Minga",
+            "description": "La minga (minkay) es una actividad cultural donde tanto comuneros como el cabildo dedican tiempo y esfuerzo por el bien común: mejorar las condiciones de las calles, senderos, ayudar en el mantenimiento de la casa comunal o instituciones. La minga es una fusión de trabajo colectivo y celebración en comunidad."
         },
-        "events": {
-            "title": "Eventos Comunitarios",
-            "description": "Nos reunimos para celebrar cosechas, matrimonios, bautizos y festividades. Cada evento fortalece los lazos que nos unen como pueblo."
+        "economy": {
+            "title": "Economía Comunitaria",
+            "agriculture": {
+                "title": "Agricultura",
+                "description": "La actividad principal es la agrícola. Entre los cerros y lugares altos cultivan productos de clima frío: trigo, cebada, papa, ocas; en las partes bajas cultivan maíz para vender en las ciudades.",
+                "crops": [
+                    "Papas",
+                    "Maíz",
+                    "Ocas",
+                    "Mellocos",
+                    "Cebadas",
+                    "Trigo",
+                    "Habas",
+                    "Chochos",
+                    "Quinua"
+                ]
+            },
+            "livestock": {
+                "title": "Ganadería",
+                "description": "Crían vacas, chanchos, ovejas y gallinas para consumo de las familias y ocasionalmente para vender. Uno de los sustentos en la economía es la venta de leche."
+            },
+            "tourism": {
+                "title": "Turismo Comunitario",
+                "description": "Una actividad económica que está desarrollando la población es el turismo comunitario, en la que comparten sus saberes y la visita a sus territorios a visitantes nacionales y extranjeros. La comunidad La Magdalena ofrece atención alimenticia, agroturismo y cabalgatas."
+            },
+            "barter": {
+                "title": "Trueque",
+                "description": "El pueblo Karanki viene revitalizando el comercio ancestral del trueque, intercambiando productos de las zonas altas con productos de las zonas bajas, fortaleciendo las prácticas culturales."
+            }
         }
     },
     "traditions": {
-        "title": "Nuestras Tradiciones",
-        "subtitle": "Sabiduría que trasciende el tiempo",
+        "title": "Tradiciones Ancestrales",
+        "subtitle": "Festividades que nos conectan con el cosmos y la tierra",
         "festivals": {
-            "title": "Festividades",
+            "title": "Festividades Principales",
+            "subtitle": "Celebraciones ancestrales que marcan los ciclos solares y agrícolas",
             "inti": {
                 "name": "Inti Raymi",
-                "description": "La fiesta del Sol, celebración del solsticio de invierno donde agradecemos al Taita Inti por las cosechas y renovamos nuestra conexión con el cosmos."
-            },
-            "pawkar": {
-                "name": "Pawkar Raymi",
-                "description": "Celebración del florecimiento, donde damos la bienvenida a la primavera con danzas, música y rituales de fertilidad."
+                "date": "21 de Junio - Solsticio de Invierno",
+                "description": "Es la festividad ancestral más importante que han logrado mantener por más de quinientos años. Se celebra cuando los Karanki celebran y agradecen al sol al comenzar buenas cosechas de maíz, frijoles, chochos, habas, calabaza, papas y granos.",
+                "activitiesTitle": "Actividades Principales",
+                "activities": [
+                    "Rituales y ceremonias",
+                    "Danza y música",
+                    "Gastronomía tradicional",
+                    "Artesanías",
+                    "Baños rituales",
+                    "Toma de plazas",
+                    "Comida comunitaria",
+                    "Entrega del bastón de mando"
+                ],
+                "locationsTitle": "Lugares Principales",
+                "locations": "Parroquia de Caranqui, Tolas del Tablón Yahuarcocha, Avenida Atahualpa, Zuleta, San Clemente, Turupamba, Rumipamba, Mariano Acosta y Pimampiro"
             },
             "kulla": {
                 "name": "Kulla Raymi",
-                "description": "Fiesta de la feminidad y la luna, honrando a las mujeres y la energía femenina de la Pachamama."
+                "date": "21 de Septiembre - Equinoccio de Primavera",
+                "description": "Se celebra como agradecimiento a la Pacha Mama por todo lo entregado durante el año y antes de preparar la tierra para que reciba las semillas y genere los nuevos frutos. La mujer es el centro de la celebración. El 21 de septiembre marca el comienzo del nuevo ciclo agrícola con la siembra de diversas semillas: maíz, frijoles, pepinos, entre otros."
+            },
+            "pawkar": {
+                "name": "Paukar Raymi",
+                "date": "21 de Marzo - Equinoccio de Otoño",
+                "description": "En el equinoccio, a través de diversos ritos ceremoniales y eventos culturales, los pueblos Karanki celebran el Paukar Raymi. Dan gracias a la Madre Tierra porque pueden cosechar los primeros productos tiernos del año."
+            }
+        },
+        "rituals": {
+            "title": "Rituales Ceremoniales",
+            "inti": {
+                "title": "Ritual del Inti Raymi",
+                "description": "Se realiza en la plaza de la comunidad como homenaje y agradecimiento a la Madre Tierra por las cosechas recibidas, elaborando una cruz con tela, flores, frutos y granos. Participan los líderes de la comunidad, el Yachak (sabio/chamán), los niños y las ñustas."
+            },
+            "pachamanca": {
+                "title": "Pachamanca",
+                "description": "Consiste en cocinar todo tipo de alimentos en un hueco debajo de la tierra con piedras calientes, mientras encima de ellos bailan al ritmo de la música tradicional del Inti Raymi hasta que los alimentos se cocinen."
+            },
+            "baston": {
+                "title": "Entrega del Bastón de Mando",
+                "description": "Se practica para vivir en armonía con los cuatro elementos (agua, aire, fuego y la pacha), sin los cuales no habría vida, así como para buenos augurios para el comienzo del nuevo ciclo de administración."
+            }
+        },
+        "ceremonies": {
+            "title": "Ceremonias de Vida",
+            "marriage": {
+                "title": "Matrimonio Karanki",
+                "description": "El proceso incluye el pedido de mano por los padres del novio, entrega del 'gashto' (canasta de panes, frutas, cuyes, gallinas y bebidas) a la familia de la novia, casamiento civil el viernes, sacada de la novia con una oveja para la suegra el sábado, celebración religiosa, y el domingo el 'chaki y maki mayllay' (limpieza de pies y manos) por parte de los padrinos.",
+                "sirvicha": "Período donde el novio demuestra su valía sirviendo a la familia de la novia",
+                "music": "Música tradicional con guitarra, bombos, flautas, bandolinas y violín",
+                "food": "Colada de maíz llamada 'boda' o mazamorra, champús"
+            },
+            "wasi": {
+                "title": "Wasi Pichay",
+                "description": "Se realiza cuando se termina de construir una casa como una inauguración, representando el festejo de que el hogar ya haya concluido su edificación. La gente participa con medianos (ofrendas) o algún presente demostrando reconocimiento."
             }
         },
         "music": {
             "title": "Música y Danza",
-            "description": "Nuestros instrumentos tradicionales - el rondador, la quena, el bombo - crean melodías que cuentan historias de amor, trabajo y celebración. Cada danza tiene un significado profundo."
+            "subtitle": "Ritmos que nos conectan con nuestros ancestros",
+            "instrumentsTitle": "Instrumentos Tradicionales",
+            "instruments": {
+                "title": "Instrumentos Tradicionales",
+                "list": [
+                    "Flauta",
+                    "Violín",
+                    "Guitarra",
+                    "Bombos",
+                    "Bandolinas"
+                ],
+                "description": "El pueblo Karanki entona instrumentos tradicionales para ejecutar sanjuanitos, propios de este pueblo. En celebraciones matrimoniales se utiliza el acompañamiento folklórico."
+            },
+            "contemporary": {
+                "title": "Proyectos Contemporáneos",
+                "description": "Grupos musicales contemporáneos mantienen vivas nuestras tradiciones",
+                "kipiku": "Kipiku de saberes musicales: once niños grabaron un disco usando instrumentos fabricados por ellos mismos",
+                "amaru": "Grupo Amaru: genera música con identidad para difundir las costumbres y tradiciones del pueblo kichwa karanki"
+            },
+            "dance": {
+                "title": "Danza",
+                "description": "Las mujeres transmiten conocimientos de manera práctica por medio de coplas y danzas. En el Inti Raymi se mantiene la tradición del 'zapateo' con presencia de grupos folclóricos, danzantes, ñustas y comuneros."
+            }
+        }
+    },
+    "cosmovision": {
+        "title": "Cosmovisión Karanki",
+        "subtitle": "Nuestra relación sagrada con la naturaleza y el cosmos",
+        "pachaMama": {
+            "title": "Pacha Mama",
+            "description": "La Madre Tierra es central en nuestra cosmovisión. Se le agradece por las cosechas y se le pide que reciba en su vientre las nuevas semillas para su germinación. Los Karanki adoraban las grandes elevaciones como montañas sagradas.",
+            "elements": {
+                "title": "Los Cuatro Elementos",
+                "description": "Los cuatro elementos que nos unen son el agua, aire, fuego y la pacha, sin los cuales no habría vida."
+            }
         },
-        "rituals": {
-            "title": "Rituales Sagrados",
-            "description": "Mantenemos ceremonias ancestrales para agradecer a la Pachamama, pedir por buenas cosechas y mantener el equilibrio entre el mundo material y espiritual."
+        "signs": {
+            "title": "Señales de la Naturaleza",
+            "astral": {
+                "title": "Señales de los Astros",
+                "sun": "El sol encerrado por un arcoíris determina que se aproxima un mal tiempo en el desarrollo de las cosechas",
+                "moon": "La luna encerrada por un arcoíris presagia una calamidad familiar o pérdida de un miembro de la casa",
+                "rainbow": "El aparecimiento del Kuychi (arco iris) indica que las lluvias van a terminar y se aproxima la estación de verano"
+            },
+            "animals": {
+                "title": "Señales de Animales",
+                "dogs": "El aullido y raspado en la tierra de los perros presagia la muerte de un comunero en menos de un mes",
+                "condor": "El vuelo del cóndor: si vuela sin compañía, señal de muerte; si vuelan en pareja, anuncio de un matrimonio",
+                "owl": "El lloro del kuskunku (búho) anuncia la muerte: por la mañana, la muerte está lejana; por la tarde o noche, la muerte está muy cerca"
+            },
+            "nature": {
+                "title": "Creencias Naturales",
+                "puruhanta": "Escuchar el sonido de la laguna Puruhanta en Angochagua es un preludio de que se dará un aguaje con fuertes lluvias"
+            }
         },
-        "stories": {
-            "title": "Tradición Oral",
-            "description": "Los abuelos son nuestros bibliotecas vivientes. A través de cuentos y leyendas transmiten enseñanzas sobre el respeto, la valentía y la sabiduría."
+        "medicine": {
+            "title": "Medicina Ancestral",
+            "healing": {
+                "title": "Prácticas de Curación",
+                "midwifery": {
+                    "title": "Partería",
+                    "description": "Las parteras brindan mayor seguridad y confianza a sus pacientes. Usan menjurjes hechos de raíz de cebolla larga y mellocos para ayudar con las contracciones y la dilatación del cuello uterino."
+                },
+                "limpia": {
+                    "title": "Limpia del Mal Aire",
+                    "description": "Se realiza para quitar las malas energías acumuladas de lugares como reservorios de agua, cascadas, lagunas, quebradas y socavones, con chilca, ruda, cuy, huevos, aguardiente y tabaco."
+                },
+                "espanto": {
+                    "title": "Levantar el Espanto",
+                    "description": "Curación para niños que se asustan por caídas fuertes o animales, realizando el 'Shungu, Shungu' (levanta el espíritu) con elementos como chilca, flores, oraciones y azotes de firmeza al suelo."
+                }
+            },
+            "plants": {
+                "title": "Plantas Medicinales",
+                "list": [
+                    {
+                        "name": "Llantén",
+                        "use": "Infecciones urinarias, catarros, gripes"
+                    },
+                    {
+                        "name": "Ortiga",
+                        "use": "Purificación, frío muscular, calambre, caspa"
+                    },
+                    {
+                        "name": "Linaza",
+                        "use": "Heridas, quemaduras, masajes relajantes"
+                    },
+                    {
+                        "name": "Pelo de choclo",
+                        "use": "Dolor de barriga"
+                    },
+                    {
+                        "name": "Juana yuyu",
+                        "use": "Heridas, golpes, inflamaciones"
+                    },
+                    {
+                        "name": "Hierba mora",
+                        "use": "Desinflamar golpes"
+                    },
+                    {
+                        "name": "Juyanguilla",
+                        "use": "Dolores de cabeza, mareos, mal viento"
+                    },
+                    {
+                        "name": "Menta",
+                        "use": "Fatiga mental y física"
+                    },
+                    {
+                        "name": "Manzanilla",
+                        "use": "Diarreas, cólicos estomacales"
+                    },
+                    {
+                        "name": "Tifo",
+                        "use": "Hinchazón del estómago"
+                    },
+                    {
+                        "name": "Anís",
+                        "use": "Digestión, períodos menstruales"
+                    },
+                    {
+                        "name": "Cedrón",
+                        "use": "Fiebre, calmante estomacal, estrés"
+                    }
+                ]
+            }
+        }
+    },
+    "history": {
+        "title": "Historia del Pueblo Karanki",
+        "origins": {
+            "title": "Orígenes Prehispánicos",
+            "description": "Los Karanki o Caras conformaron una cultura altamente desarrollada en conocimientos astronómicos y organización económica y social. Se caracterizaron por la construcción de pirámides truncadas y escalonadas de cangagua o toba volcánica, ubicadas estratégicamente en la línea ecuatorial.",
+            "pyramids": "Sitios de pirámides: Cochasquí, Cayambe, Caranqui (hacienda Zuleta), Perugachi y Gualimán"
+        },
+        "inca": {
+            "title": "Conquista Incaica",
+            "description": "A finales del siglo XV, los Karanki enfrentaron la invasión de los pueblos del Kullasuyu (Imperio Inca). La conquista concluyó a comienzos del siglo XVI tras la batalla de Yaguarcocha (laguna de sangre)."
+        },
+        "colonial": {
+            "title": "Período Colonial y Republicano",
+            "description": "Durante la colonización y el período republicano, el pueblo Karanki sufrió despojo territorial y cultural. La lucha de líderes como la Ñusta Kilazo o Benjamín Ñuca han permitido a este pueblo luchar por sus derechos."
+        },
+        "contemporary": {
+            "title": "Época Contemporánea",
+            "constitution1998": "La Constitución de 1998 marcó un hito al reconocer los derechos colectivos de los pueblos indígenas sobre sus territorios ancestrales",
+            "constitution2008": "La Constitución de 2008, artículo 57, reconoce los Derechos Colectivos, permitiendo trabajar en la revitalización del comercio ancestral y fortalecer la identidad cultural"
         }
     },
     "gallery": {
-        "title": "Galería",
-        "subtitle": "Imágenes de nuestra vida y cultura",
+        "title": "Galería Cultural",
+        "subtitle": "Imágenes de nuestro pueblo, territorio y tradiciones",
         "categories": {
             "all": "Todas",
             "landscapes": "Paisajes",
             "people": "Gente",
             "crafts": "Artesanías",
-            "festivals": "Festividades"
-        },
-        "images": {
-            "mountains": {
-                "title": "Montañas Andinas",
-                "description": "Las majestuosas montañas que rodean nuestra comunidad"
-            },
-            "fields": {
-                "title": "Campos Agrícolas",
-                "description": "Nuestras tierras fértiles donde cultivamos alimentos tradicionales"
-            },
-            "textiles": {
-                "title": "Textiles Tejidos a Mano",
-                "description": "Textiles coloridos hechos con técnicas ancestrales"
-            },
-            "celebration": {
-                "title": "Celebración Comunitaria",
-                "description": "Reunión para un festival tradicional"
-            },
-            "village": {
-                "title": "Nuestra Aldea",
-                "description": "Hogares enclavados en las montañas"
-            },
-            "pottery": {
-                "title": "Artesanía Cerámica",
-                "description": "Cerámica hecha a mano usando métodos tradicionales"
-            },
-            "sunset": {
-                "title": "Atardecer Andino",
-                "description": "Hermoso atardecer sobre nuestras tierras"
-            },
-            "baskets": {
-                "title": "Cestas Tejidas",
-                "description": "Cestas tejidas con fibras naturales"
-            },
-            "dance": {
-                "title": "Danza Tradicional",
-                "description": "Miembros de la comunidad realizando danza tradicional"
-            }
+            "festivals": "Festividades",
+            "clothing": "Vestimenta"
         }
     },
     "contact": {
         "title": "Contacto",
-        "subtitle": "Conecta con nosotros",
+        "subtitle": "Conecta con el pueblo Karanki",
         "form": {
             "name": "Nombre",
             "email": "Correo electrónico",
@@ -184,30 +405,36 @@
         "info": {
             "title": "Información",
             "location": "Ubicación",
-            "locationText": "Comunidades rurales de los Andes ecuatorianos",
+            "locationText": "Provincia de Imbabura, Sierra Norte del Ecuador",
+            "communities": "42 comunidades en los cantones de Ibarra, Otavalo, Antonio Ante y Pimampiro",
             "email": "Email",
             "phone": "Teléfono"
         },
         "faq": {
             "title": "Preguntas Frecuentes",
             "q1": {
-                "question": "¿Puedo visitar la comunidad?",
-                "answer": "¡Sí! Damos la bienvenida a visitantes respetuosos que deseen aprender sobre nuestra cultura. Contáctanos para coordinar tu visita."
+                "question": "¿Puedo visitar las comunidades Karanki?",
+                "answer": "Sí, algunas comunidades como La Magdalena ofrecen turismo comunitario. Te invitamos a experimentar nuestra cultura, alimentación, agroturismo y cabalgatas. Contáctanos para coordinar tu visita respetuosa."
             },
             "q2": {
-                "question": "¿Cómo puedo apoyar a la comunidad?",
-                "answer": "Puedes apoyarnos comprando nuestras artesanías, participando en programas de turismo comunitario o colaborando con proyectos educativos."
+                "question": "¿Cómo puedo apoyar al pueblo Karanki?",
+                "answer": "Puedes apoyarnos comprando nuestras artesanías bordadas a mano, participando en programas de turismo comunitario, o colaborando con proyectos de revitalización de la lengua kichwa y educación intercultural."
             },
             "q3": {
-                "question": "¿Ofrecen talleres culturales?",
-                "answer": "Sí, organizamos talleres de tejido, cerámica, cocina tradicional y lengua kichwa. Consulta disponibilidad."
+                "question": "¿Qué festividades puedo presenciar?",
+                "answer": "Las principales festividades son el Inti Raymi (21 de junio), Kulla Raymi (septiembre) y Paukar Raymi (21 de marzo). Son celebraciones ancestrales abiertas al público respetuoso."
+            },
+            "q4": {
+                "question": "¿Se enseña el idioma kichwa?",
+                "answer": "Sí, implementamos el Modelo de Educación Intercultural Bilingüe (MOSEIB) en nuestras comunidades. También organizamos talleres de lengua kichwa para preservar nuestra identidad cultural."
             }
         }
     },
     "footer": {
-        "description": "Preservando y compartiendo la riqueza cultural de nuestras comunidades rurales",
+        "description": "Pueblo Indígena Kichwa Karanki - Preservando más de 500 años de cultura ancestral en la Sierra Norte del Ecuador",
         "links": "Enlaces",
         "social": "Redes Sociales",
-        "rights": "Todos los derechos reservados"
+        "rights": "Todos los derechos reservados",
+        "acknowledgment": "En reconocimiento a nuestros ancestros y en honor a las futuras generaciones"
     }
 }

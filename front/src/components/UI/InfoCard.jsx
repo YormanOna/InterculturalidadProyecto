@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import Badge from './Badge';
 import Tooltip from './Tooltip';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const InfoCard = ({
     title,
@@ -10,7 +11,8 @@ const InfoCard = ({
     badges = [],
     tooltip,
     children,
-    className = ''
+    className = '',
+    isFontAwesome = false
 }) => {
     const cardContent = (
         <motion.div
@@ -33,7 +35,11 @@ const InfoCard = ({
             {Icon && (
                 <div className="mb-4">
                     <div className="w-12 h-12 bg-gradient-to-br from-terracotta-500 to-gold-500 rounded-lg flex items-center justify-center shadow-md">
-                        <Icon className="w-6 h-6 text-white" />
+                        {isFontAwesome ? (
+                            <FontAwesomeIcon icon={Icon} className="text-2xl text-white" />
+                        ) : (
+                            <Icon className="w-6 h-6 text-white" />
+                        )}
                     </div>
                 </div>
             )}

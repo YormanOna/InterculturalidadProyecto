@@ -5,8 +5,8 @@ import Home from './pages/Home';
 import Culture from './pages/Culture';
 import Community from './pages/Community';
 import Traditions from './pages/Traditions';
+import Cosmovision from './pages/Cosmovision';
 import Gallery from './pages/Gallery';
-import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
           <Route path="/culture" element={<Culture />} />
           <Route path="/community" element={<Community />} />
           <Route path="/traditions" element={<Traditions />} />
+          <Route path="/cosmovision" element={<Cosmovision />} />
           <Route path="/gallery" element={<Gallery />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

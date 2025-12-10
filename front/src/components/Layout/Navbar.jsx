@@ -15,8 +15,8 @@ const Navbar = () => {
         { path: '/culture', label: t('nav.culture') },
         { path: '/community', label: t('nav.community') },
         { path: '/traditions', label: t('nav.traditions') },
+        { path: '/cosmovision', label: t('nav.cosmovision') },
         { path: '/gallery', label: t('nav.gallery') },
-        { path: '/contact', label: t('nav.contact') },
     ];
 
     const languages = [
@@ -39,10 +39,10 @@ const Navbar = () => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
                         <div className="w-10 h-10 bg-gradient-to-br from-terracotta-600 to-gold-600 rounded-lg flex items-center justify-center shadow-md">
-                            <span className="text-white font-bold text-xl">IC</span>
+                            <span className="text-white font-bold text-xl">KK</span>
                         </div>
                         <span className="font-display font-bold text-xl gradient-text hidden sm:block">
-                            Interculturalidad
+                            Karanki
                         </span>
                     </Link>
 

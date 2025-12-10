@@ -4,6 +4,7 @@
         "culture": "Culture",
         "community": "Community",
         "traditions": "Traditions",
+        "cosmovision": "Worldview",
         "gallery": "Gallery",
         "contact": "Contact"
     },
@@ -14,200 +15,420 @@
     },
     "home": {
         "hero": {
-            "title": "Discover the Richness of Our Rural Communities",
-            "subtitle": "A journey through culture, traditions and ancestral wisdom",
-            "cta": "Explore Culture",
+            "title": "Kichwa Karanki Indigenous People",
+            "subtitle": "Ancestral Guardians of Northern Ecuador - Imbabura Province",
+            "cta": "Discover Our Culture",
             "ctaSecondary": "View Gallery"
+        },
+        "stats": {
+            "population": "6,360 - 20,000",
+            "populationLabel": "Inhabitants",
+            "communities": "42",
+            "communitiesLabel": "Communities",
+            "location": "Imbabura",
+            "locationLabel": "Province"
         },
         "features": {
             "culture": {
-                "title": "Living Culture",
-                "description": "Learn about the cultural practices, traditional clothing and values that define our identity"
+                "title": "Material Culture",
+                "description": "Hand-embroidered traditional clothing, crafts and textiles that reflect our ancestral identity"
             },
             "community": {
-                "title": "Community Life",
-                "description": "Discover how we live, work and celebrate together in harmony with nature"
+                "title": "Community Organization",
+                "description": "42 communities democratically organized under the Council of Cabildo system"
             },
             "traditions": {
-                "title": "Ancestral Traditions",
-                "description": "Explore our festivities, rituals and wisdom passed down through generations"
+                "title": "Ancestral Festivities",
+                "description": "Inti Raymi, Kulla Raymi and Paukar Raymi: celebrations that keep our connection with the cosmos alive"
             }
         },
         "about": {
-            "title": "Our Mission",
-            "description": "To promote and preserve the cultural richness of rural communities, sharing our history, traditions and way of life with the world. We believe in the importance of keeping our roots alive while embracing the future."
+            "title": "Who We Are",
+            "description": "The Kichwa Karanki indigenous people are an ancient culture inhabiting Northern Ecuador, specifically in Imbabura province. Descendants of the lordships of Caranqui, Cayambe and Otavalo, we keep our identity alive through traditional agricultural practices, ancestral festivities and a worldview deeply connected with Pacha Mama (Mother Earth)."
+        },
+        "location": {
+            "title": "Our Territory",
+            "ibarra": "Ibarra: La Esperanza, Angochagua, Caranqui, San Antonio",
+            "otavalo": "Otavalo: San Juan de Ilumán",
+            "antonioAnte": "Antonio Ante: Andrade Marín",
+            "pimampiro": "Pimampiro: Mariano Acosta, San Francisco de Sigsipamba"
         }
     },
     "culture": {
-        "title": "Our Culture",
-        "subtitle": "The identity of our people",
+        "title": "Material Culture",
+        "subtitle": "Our people's identity expressed in every garment and craft",
         "clothing": {
-            "title": "Traditional Clothing",
-            "description": "Each garment tells a story. Our textiles are hand-woven using ancestral techniques, with natural colors representing elements of nature: the green of the mountains, the blue of the sky, the red of the fertile earth."
+            "men": {
+                "title": "Men's Clothing",
+                "description": "Karanki men wear white pants and white shirt, accompanied by a red wool poncho for special celebrations and a blue one for daily use. They complete their attire with white espadrilles and a short-brimmed hat.",
+                "items": [
+                    "White pants",
+                    "White shirt",
+                    "Red poncho (ceremonies)",
+                    "Blue poncho (daily)",
+                    "White espadrilles",
+                    "Short-brimmed hat"
+                ]
+            },
+            "women": {
+                "title": "Women's Clothing",
+                "description": "Women wear a multicolor embroidered white blouse that reaches a quarter below the knee. They cover themselves with a blue or black anaco (skirt) tied at the waist with colored sashes. They adorn their necks with walka (golden necklaces) and their wrists with manilas (red coral bracelets). They complete the outfit with a black hat, black espadrilles and a brightly colored shawl.",
+                "items": [
+                    "Multicolor embroidered white blouse",
+                    "Blue or black anaco",
+                    "Colored sashes",
+                    "Walka (golden necklaces)",
+                    "Manilas (red coral bracelets)",
+                    "Black hat",
+                    "Black espadrilles",
+                    "Colored shawl"
+                ]
+            }
         },
         "language": {
-            "title": "Mother Tongue",
-            "description": "Kichwa is more than a language, it is the voice of our ancestors. Through it we transmit knowledge, stories and the Andean worldview that connects us with Pachamama."
-        },
-        "values": {
-            "title": "Community Values",
-            "description": "We live by principles of reciprocity (ayni), mutual respect and harmony with nature. The community is our extended family, where we all support each other.",
-            "list": {
-                "ayni": "Ayni - Reciprocity and mutual help",
-                "minka": "Minka - Community work",
-                "respect": "Respect for Pachamama",
-                "solidarity": "Solidarity among neighbors"
-            }
+            "title": "Kichwa Language",
+            "subtitle": "The voice of our ancestors",
+            "description": "Kichwa is the official language among the Karanki people, while Spanish is considered the second language. Originally, the Karanki would have spoken a Barbacoan family language, which was replaced by Kichwa during the Inca expansion.",
+            "status": "Current Status",
+            "statusDescription": "Currently we face challenges such as negative attitudes towards Kichwa and lack of coherent public policies for its promotion.",
+            "revitalization": "Revitalization",
+            "revitalizationDescription": "We implement the Bilingual Intercultural Education Model (MOSEIB) to preserve cultural identity and strengthen students' linguistic competence in Kichwa."
         },
         "crafts": {
             "title": "Handicrafts",
-            "description": "Our hands create functional art: ceramics, textiles, basketry. Each piece carries the soul of the artisan and the wisdom of generations."
+            "subtitle": "The art of our hands",
+            "embroidery": {
+                "title": "Hand Embroidery",
+                "description": "Hand embroidery has traditionally been an important craft. Shirts are very diverse and colorful, using various colored threads on a piece of drawn white fabric where embroidery is meticulously done. Karanki women's embroidery has transcended the country's borders, participating in national and international fairs."
+            },
+            "beadwork": {
+                "title": "Bead Work",
+                "description": "Elderly people preserve the art of collecting tiny red mullos (beads) on thread to make bracelets that older women wear."
+            },
+            "tablecloths": {
+                "title": "Tablecloth Embroidery",
+                "description": "Tablecloth embroidery is made using wool threads of different colors, polyester fabric, lace, canvas fabrics, needles and round vellum molds."
+            }
         }
     },
     "community": {
-        "title": "Our Community",
+        "title": "Community Organization",
         "subtitle": "United by land and tradition",
-        "daily": {
-            "title": "Daily Life",
-            "description": "Our days begin with the rooster's crow and the aroma of toasted corn. We work the land, care for animals and share moments with family. Life flows to the rhythm of the seasons and cycles of nature."
-        },
-        "agriculture": {
-            "title": "Ancestral Agriculture",
-            "description": "We cultivate the land as our grandparents did, respecting lunar cycles and nature's signs. Corn, potato, quinoa and beans are our sacred foods.",
-            "crops": {
-                "corn": "Corn - The golden grain",
-                "potato": "Potato - Gift of the Andes",
-                "quinoa": "Quinoa - Mother grain",
-                "beans": "Beans - Companion of corn"
+        "organization": {
+            "title": "Organizational Structure",
+            "subtitle": "Democratic governance rooted in ancestral wisdom",
+            "cabildo": {
+                "title": "Council of Cabildo",
+                "description": "Each year, the Council of Cabildo prepares a plan and submits it to the Assembly for approval. Activities are planned in general assemblies, where decisions for community development are made.",
+                "roles": "President, Vice President, Treasurer, Secretary, Syndic"
+            },
+            "elders": {
+                "title": "Council of Elders",
+                "description": "There is a Council of Elders whose function is to help with their wisdom to solve matters related to theft, gangs, land conflicts, neighborhood feuds or gossip."
+            },
+            "women": {
+                "title": "Women's Role",
+                "description": "Women are in charge of transmitting knowledge practically through couplets and dances."
             }
         },
-        "organization": {
-            "title": "Social Organization",
-            "description": "Our community is organized democratically. Important decisions are made in assemblies where every voice counts. Leaders are chosen for their wisdom and commitment to the common good."
+        "minga": {
+            "title": "The Minga",
+            "description": "Minga (minkay) is a cultural activity where both community members and the cabildo dedicate time and effort for the common good: improving street and path conditions, helping maintain the communal house or institutions. Minga is a fusion of collective work and community celebration.",
+            "principleTitle": "Principle",
+            "principle": "Reciprocity and mutual support",
+            "activitiesTitle": "Activities",
+            "activities": "Road repair, maintenance of public spaces, house construction, agricultural harvests"
         },
-        "events": {
-            "title": "Community Events",
-            "description": "We gather to celebrate harvests, weddings, baptisms and festivities. Each event strengthens the bonds that unite us as a people."
+        "economy": {
+            "title": "Community Economy",
+            "subtitle": "Sustainable production in harmony with nature",
+            "agriculture": {
+                "title": "Agriculture",
+                "description": "The main activity is agricultural. In the hills and high places they cultivate cold climate products: wheat, barley, potatoes, ocas; in the lowlands they cultivate corn to sell in cities.",
+                "cropsTitle": "Main Crops",
+                "crops": [
+                    "Potatoes",
+                    "Corn",
+                    "Ocas",
+                    "Mellocos",
+                    "Barley",
+                    "Wheat",
+                    "Broad beans",
+                    "Lupines",
+                    "Quinoa"
+                ]
+            },
+            "livestock": {
+                "title": "Livestock",
+                "description": "Some families raise cows and sheep, selling milk and wool for income."
+            },
+            "tourism": {
+                "title": "Community Tourism",
+                "description": "Some communities have developed community tourism projects offering cultural experiences and connection with nature.",
+                "example": "Community of La Magdalena - tourism and crafts"
+            },
+            "barter": {
+                "title": "Barter System",
+                "description": "The traditional barter system (trueque) is still practiced, exchanging agricultural and livestock products between communities and regions."
+            }
         }
     },
     "traditions": {
-        "title": "Our Traditions",
-        "subtitle": "Wisdom that transcends time",
+        "title": "Ancestral Traditions",
+        "subtitle": "Celebrations that connect us with the cosmos and Pacha Mama",
         "festivals": {
-            "title": "Festivities",
+            "title": "Main Festivals",
+            "subtitle": "The ceremonial calendar marks our connection with cosmic cycles",
             "inti": {
                 "name": "Inti Raymi",
-                "description": "The festival of the Sun, celebration of the winter solstice where we thank Taita Inti for the harvests and renew our connection with the cosmos."
-            },
-            "pawkar": {
-                "name": "Pawkar Raymi",
-                "description": "Celebration of blooming, where we welcome spring with dances, music and fertility rituals."
+                "date": "June 21",
+                "description": "The Festival of the Sun (Inti Raymi) celebrates the summer solstice and agricultural harvest. It is the most important celebration, where gratitude is expressed to Inti Taita (Father Sun) for crops and life.",
+                "activitiesTitle": "Main Activities",
+                "activities": [
+                    "Ritual baths in sacred waterfalls",
+                    "Offerings to Pacha Mama",
+                    "Traditional dances (San Juan)",
+                    "Traditional games (palo encebado)",
+                    "Chicha and traditional food",
+                    "Toma de la plaza (plaza takeover)",
+                    "Music with traditional instruments",
+                    "Community gatherings"
+                ],
+                "locationsTitle": "Main Places",
+                "locations": "San Juan de Ilumán, Angochagua, La Esperanza, Caranqui"
             },
             "kulla": {
                 "name": "Kulla Raymi",
-                "description": "Festival of femininity and the moon, honoring women and the feminine energy of Pachamama."
+                "date": "September 21",
+                "description": "The Festival of the Woman and Femininity, celebrated during the equinox. Honors feminine strength and the role of women in community and Andean cosmovision."
+            },
+            "pawkar": {
+                "name": "Paukar Raymi",
+                "date": "March 21",
+                "description": "Festival of Flowering, celebrated at the spring equinox. Marks the beginning of agricultural season and nature's renewal."
+            }
+        },
+        "rituals": {
+            "title": "Sacred Rituals",
+            "inti": {
+                "title": "Inti Raymi Ritual",
+                "description": "Offerings and ceremonies to Father Sun, including sacred baths and thanks for the harvest."
+            },
+            "pachamanca": {
+                "title": "Pachamanca",
+                "description": "Ceremonial cooking in earth pits, where food is offered to Pacha Mama before sharing among the community."
+            },
+            "baston": {
+                "title": "Staff of Command",
+                "description": "Ceremony of power transfer where new authorities receive the staff symbolizing their responsibility to the community."
+            }
+        },
+        "ceremonies": {
+            "title": "Life Cycle Ceremonies",
+            "marriage": {
+                "title": "Karanki Marriage",
+                "description": "The gashto (formal request), sirvicha (service period) and wedding constitute the marriage process. It is a community event where both families unite.",
+                "sirvicha": "Period where the groom demonstrates his worth by serving the bride's family"
+            },
+            "wasi": {
+                "title": "Wasi Pichay",
+                "description": "House cleaning ceremony, where the community gathers to purify and bless a new home or renew an old one."
             }
         },
         "music": {
             "title": "Music and Dance",
-            "description": "Our traditional instruments - the rondador, quena, bombo - create melodies that tell stories of love, work and celebration. Each dance has a deep meaning."
-        },
-        "rituals": {
-            "title": "Sacred Rituals",
-            "description": "We maintain ancestral ceremonies to thank Pachamama, ask for good harvests and maintain balance between the material and spiritual worlds."
-        },
-        "stories": {
-            "title": "Oral Tradition",
-            "description": "Elders are our living libraries. Through tales and legends they transmit teachings about respect, courage and wisdom."
-        }
-    },
-    "gallery": {
-        "title": "Gallery",
-        "subtitle": "Images of our life and culture",
-        "categories": {
-            "all": "All",
-            "landscapes": "Landscapes",
-            "people": "People",
-            "crafts": "Handicrafts",
-            "festivals": "Festivities"
-        },
-        "images": {
-            "mountains": {
-                "title": "Andes Mountains",
-                "description": "The majestic mountains surrounding our community"
+            "subtitle": "Rhythms that connect us with our ancestors",
+            "instrumentsTitle": "Traditional Instruments",
+            "instruments": {
+                "title": "Traditional Instruments",
+                "list": [
+                    "Pinkuyllu (Andean flute)",
+                    "Wankara (ceremonial drum)",
+                    "Rondador (panpipes)",
+                    "Charango",
+                    "Dulzaina"
+                ],
+                "description": "The Karanki people play traditional instruments to perform sanjuanitos and other traditional music. Folkloric accompaniment is used in marriage celebrations."
             },
-            "fields": {
-                "title": "Agricultural Fields",
-                "description": "Our fertile lands where we grow traditional crops"
-            },
-            "textiles": {
-                "title": "Hand-woven Textiles",
-                "description": "Colorful textiles made with ancestral techniques"
-            },
-            "celebration": {
-                "title": "Community Celebration",
-                "description": "Gathering for a traditional festival"
-            },
-            "village": {
-                "title": "Our Village",
-                "description": "Homes nestled in the mountains"
-            },
-            "pottery": {
-                "title": "Ceramic Crafts",
-                "description": "Handmade pottery using traditional methods"
-            },
-            "sunset": {
-                "title": "Andean Sunset",
-                "description": "Beautiful sunset over our lands"
-            },
-            "baskets": {
-                "title": "Woven Baskets",
-                "description": "Baskets woven from natural fibers"
+            "contemporary": {
+                "title": "Contemporary Groups",
+                "description": "New generations keep music alive through groups fusing traditional rhythms with modern styles.",
+                "kipiku": "Group Kipiku - Fusion of ancestral and contemporary music",
+                "amaru": "Group Amaru - Kichwa rock"
             },
             "dance": {
-                "title": "Traditional Dance",
-                "description": "Community members performing traditional dance"
+                "title": "Traditional Dances",
+                "description": "The San Juan is the most representative dance, performed in circles around bonfires during Inti Raymi. Other dances include the yumbo and danzante, performed with colorful costumes and masks."
             }
         }
     },
+    "cosmovision": {
+        "title": "Andean Worldview",
+        "subtitle": "Our relationship with the cosmos and Pacha Mama",
+        "pachaMama": {
+            "title": "Pacha Mama",
+            "description": "Mother Earth is the center of Karanki cosmovision. She provides life, food and shelter. The relationship with her is one of respect, reciprocity and gratitude.",
+            "elements": {
+                "title": "The Four Elements"
+            }
+        },
+        "signs": {
+            "title": "Natural Signs",
+            "subtitle": "Nature communicates through signs",
+            "astral": {
+                "title": "Astral Signs",
+                "sun": "The sun guides agricultural cycles",
+                "moon": "The moon influences planting and harvests",
+                "rainbow": "The rainbow brings rain and fertility"
+            },
+            "animals": {
+                "title": "Animal Signs",
+                "dog": "Dogs announce visitors",
+                "condor": "The condor is a sacred messenger",
+                "owl": "The owl warns of changes"
+            }
+        },
+        "medicine": {
+            "title": "Ancestral Medicine",
+            "subtitle": "Traditional healing knowledge",
+            "practices": {
+                "title": "Healing Practices",
+                "midwife": {
+                    "title": "Traditional Midwifery",
+                    "description": "Midwives accompany women during pregnancy and childbirth using ancestral techniques and medicinal plants."
+                },
+                "limpia": {
+                    "title": "Spiritual Cleansing",
+                    "description": "Ritual cleansing with medicinal plants, eggs and other elements to remove negative energies."
+                },
+                "espanto": {
+                    "title": "Fright Healing",
+                    "description": "Healing ritual for fright or soul loss, using prayers, herbs and spiritual baths."
+                }
+            },
+            "plants": {
+                "title": "Medicinal Plants",
+                "ruda": {
+                    "name": "Rue",
+                    "use": "Cleansing and fright healing"
+                },
+                "santa_maria": {
+                    "name": "Santa Maria",
+                    "use": "Digestive problems and colds"
+                },
+                "ortiga": {
+                    "name": "Nettle",
+                    "use": "Circulation and joint pain"
+                },
+                "eucalipto": {
+                    "name": "Eucalyptus",
+                    "use": "Respiratory problems"
+                },
+                "manzanilla": {
+                    "name": "Chamomile",
+                    "use": "Calmative and digestive"
+                },
+                "hierba_buena": {
+                    "name": "Spearmint",
+                    "use": "Digestive and stomach pain"
+                },
+                "llanten": {
+                    "name": "Plantain",
+                    "use": "Wounds and inflammation"
+                },
+                "marco": {
+                    "name": "Marco",
+                    "use": "Colds and flu"
+                },
+                "borraja": {
+                    "name": "Borage",
+                    "use": "Fever and cough"
+                },
+                "cedrón": {
+                    "name": "Lemon verbena",
+                    "use": "Nerves and insomnia"
+                },
+                "toronjil": {
+                    "name": "Lemon balm",
+                    "use": "Nerves and heart"
+                },
+                "matico": {
+                    "name": "Matico",
+                    "use": "Wounds and ulcers"
+                }
+            }
+        }
+    },
+    "gallery": {
+        "title": "Photo Gallery",
+        "subtitle": "Images of our culture and daily life",
+        "categories": {
+            "all": "All",
+            "festivals": "Festivals",
+            "clothing": "Traditional Clothing",
+            "landscape": "Landscape",
+            "daily": "Daily Life",
+            "crafts": "Handicrafts"
+        }
+    },
     "contact": {
-        "title": "Contact",
-        "subtitle": "Connect with us",
+        "title": "Contact Us",
+        "subtitle": "We'd love to hear from you",
         "form": {
             "name": "Name",
             "email": "Email",
             "message": "Message",
-            "send": "Send message",
-            "success": "Message sent successfully!",
-            "error": "Error sending message"
+            "send": "Send Message",
+            "success": "Message sent successfully!"
         },
         "info": {
-            "title": "Information",
-            "location": "Location",
-            "locationText": "Rural communities of the Ecuadorian Andes",
             "email": "Email",
-            "phone": "Phone"
+            "phone": "Phone",
+            "location": "Location",
+            "locationText": "Imbabura, Ecuador"
         },
         "faq": {
             "title": "Frequently Asked Questions",
             "q1": {
-                "question": "Can I visit the community?",
-                "answer": "Yes! We welcome respectful visitors who wish to learn about our culture. Contact us to coordinate your visit."
+                "question": "Can I visit Karanki communities?",
+                "answer": "Yes, some communities offer community tourism. We recommend contacting local tourism offices in Otavalo or Ibarra to coordinate respectful cultural visits."
             },
             "q2": {
-                "question": "How can I support the community?",
-                "answer": "You can support us by buying our handicrafts, participating in community tourism programs or collaborating with educational projects."
+                "question": "When is Inti Raymi celebrated?",
+                "answer": "Inti Raymi is celebrated around June 21, the summer solstice. Celebrations extend for several days with dances, rituals and community gatherings in various communities."
             },
             "q3": {
-                "question": "Do you offer cultural workshops?",
-                "answer": "Yes, we organize workshops on weaving, ceramics, traditional cooking and Kichwa language. Check availability."
+                "question": "Where can I purchase Karanki handicrafts?",
+                "answer": "You can find our embroidery and handicrafts at Otavalo's indigenous market, the largest artisan market in South America, open every day with its peak on Saturdays."
+            },
+            "q4": {
+                "question": "Is Kichwa still spoken in communities?",
+                "answer": "Yes, Kichwa is still spoken especially among older people. There are revitalization efforts through bilingual education (MOSEIB) to strengthen the language among new generations."
             }
         }
     },
     "footer": {
-        "description": "Preserving and sharing the cultural richness of our rural communities",
-        "links": "Links",
-        "social": "Social Media",
+        "description": "Promoting and preserving the cultural richness of rural communities",
+        "links": "Quick Links",
+        "social": "Connect With Us",
         "rights": "All rights reserved"
+    },
+    "calendar": {
+        "title": "Festival Calendar",
+        "yearView": "Annual View",
+        "months": {
+            "january": "January",
+            "february": "February",
+            "march": "March",
+            "april": "April",
+            "may": "May",
+            "june": "June",
+            "july": "July",
+            "august": "August",
+            "september": "September",
+            "october": "October",
+            "november": "November",
+            "december": "December"
+        }
     }
 }

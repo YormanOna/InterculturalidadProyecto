@@ -7,20 +7,97 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Terracotta/Clay - Traditional pottery and earth (mejorado)
+        // Terracotta Eléctrico - Energía vital, tierra fértil
         terracotta: {
           50: '#FFF5F2',
           100: '#FFE8E1',
           200: '#FFD1C1',
           300: '#FFB096',
-          400: '#FF8A61',
+          400: '#FF8A65',
           500: '#FF6B35',
-          600: '#E85A28',
+          600: '#D84315',
           700: '#C4461D',
           800: '#9F3718',
           900: '#7D2D14',
         },
-        // Deep Gold - Corn, sun worship, precious metals (más vibrante)
+        // Púrpura Andino - Espiritualidad, sabiduría ancestral
+        'purple-andino': {
+          50: '#F3E8FF',
+          100: '#E9D5FF',
+          200: '#D8B4FE',
+          300: '#C084FC',
+          400: '#9D4EDD',
+          500: '#7B2CBF',
+          600: '#5A189A',
+          700: '#4C148F',
+          800: '#3C1071',
+          900: '#240754',
+        },
+        // Turquesa Glaciar - Pureza, agua sagrada, innovación
+        'turquoise-glaciar': {
+          50: '#E0FFFE',
+          100: '#B9FFFD',
+          200: '#90E0EF',
+          300: '#48CAE4',
+          400: '#00B4D8',
+          500: '#06FFF0',
+          600: '#0096C7',
+          700: '#0077B6',
+          800: '#005F8F',
+          900: '#023E5C',
+        },
+        // Índigo Nocturno - Profundidad, cosmos, misterio
+        'indigo-nocturno': {
+          50: '#E7E9F0',
+          100: '#C8CDDE',
+          200: '#8F96B8',
+          300: '#5A638F',
+          400: '#3A426E',
+          500: '#2D3561',
+          600: '#1A1F3A',
+          700: '#16192E',
+          800: '#0F1123',
+          900: '#0A0C1A',
+        },
+        // Dorado Solar - Inti Raymi, abundancia, divinidad
+        'gold-solar': {
+          50: '#FFFBEA',
+          100: '#FFF3C4',
+          200: '#FFE999',
+          300: '#FFDC6E',
+          400: '#FFC93C',
+          500: '#FFB800',
+          600: '#E5A300',
+          700: '#CC8F00',
+          800: '#A37200',
+          900: '#7A5600',
+        },
+        // Verde Chakra - Pacha Mama, crecimiento, sanación
+        'green-chakra': {
+          50: '#E8FDF5',
+          100: '#C3FAE8',
+          200: '#7EF4D2',
+          300: '#52B788',
+          400: '#40916C',
+          500: '#06D6A0',
+          600: '#05B385',
+          700: '#048C6A',
+          800: '#036653',
+          900: '#024D3E',
+        },
+        // Fucsia Ritual - Puntos focales, elementos sorpresa
+        'fucsia-ritual': {
+          500: '#F72585',
+          600: '#D91E6F',
+          700: '#B01858',
+        },
+        // Coral Ceremonial - Gradientes, transiciones
+        'coral-ceremonial': {
+          500: '#FF5D8F',
+          600: '#E54D7F',
+          700: '#CC3E6E',
+        },
+        // Mantener colores originales para compatibilidad
         gold: {
           50: '#FFFBF0',
           100: '#FFF4D4',
@@ -33,7 +110,6 @@ export default {
           800: '#B36B00',
           900: '#804D00',
         },
-        // Forest Green - Fertile valleys and agriculture (más natural)
         forest: {
           50: '#F2F8F4',
           100: '#DCEEE3',
@@ -46,7 +122,6 @@ export default {
           800: '#1A4C32',
           900: '#133A27',
         },
-        // Sky Blue - Andean skies and sacred waters (más brillante)
         sky: {
           50: '#F0F9FF',
           100: '#E0F2FE',
@@ -59,7 +134,6 @@ export default {
           800: '#075985',
           900: '#0C4A6E',
         },
-        // Warm Cream - Natural wool and traditional textiles (más cálido)
         cream: {
           50: '#FEFDFB',
           100: '#FEF9F3',
@@ -72,36 +146,11 @@ export default {
           800: '#A07A3E',
           900: '#765A2D',
         },
-        // Nueva paleta: Sunset Orange - Atardeceres andinos
-        sunset: {
-          50: '#FFF7ED',
-          100: '#FFEDD5',
-          200: '#FED7AA',
-          300: '#FDBA74',
-          400: '#FB923C',
-          500: '#F97316',
-          600: '#EA580C',
-          700: '#C2410C',
-          800: '#9A3412',
-          900: '#7C2D12',
-        },
-        // Nueva paleta: Purple - Montañas al amanecer
-        mountain: {
-          50: '#FAF5FF',
-          100: '#F3E8FF',
-          200: '#E9D5FF',
-          300: '#D8B4FE',
-          400: '#C084FC',
-          500: '#A855F7',
-          600: '#9333EA',
-          700: '#7E22CE',
-          800: '#6B21A8',
-          900: '#581C87',
-        },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Outfit', 'system-ui', 'sans-serif'],
+        sans: ['Inter', 'Manrope', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Poppins', 'Outfit', 'system-ui', 'sans-serif'],
+        ceremonial: ['Cinzel', 'serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.8s ease-in-out',
@@ -109,6 +158,9 @@ export default {
         'slide-down': 'slideDown 0.8s ease-out',
         'float': 'float 8s ease-in-out infinite',
         'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'gradient-shift': 'gradient-shift 15s ease infinite',
+        'pacha-breath': 'pacha-breath 4s ease-in-out infinite',
+        'chakra-ripple': 'chakra-ripple 1.5s ease-out',
       },
       keyframes: {
         fadeIn: {
@@ -127,12 +179,34 @@ export default {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-25px)' },
         },
+        'gradient-shift': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
+        'pacha-breath': {
+          '0%, 100%': { transform: 'scale(1)', filter: 'brightness(1)' },
+          '50%': { transform: 'scale(1.03)', filter: 'brightness(1.1)' },
+        },
+        'chakra-ripple': {
+          '0%': { boxShadow: '0 0 0 0 rgba(6, 255, 240, 0.7)' },
+          '100%': { boxShadow: '0 0 0 30px rgba(6, 255, 240, 0)' },
+        },
       },
       backgroundImage: {
         'gradient-warm': 'linear-gradient(135deg, #FDF3E7 0%, #FFE8E1 50%, #FFF4D4 100%)',
         'gradient-cultural': 'linear-gradient(135deg, #FF6B35 0%, #FFB027 50%, #3D9A62 100%)',
         'gradient-sunset': 'linear-gradient(135deg, #F97316 0%, #FB923C 50%, #FDBA74 100%)',
         'gradient-andean': 'linear-gradient(135deg, #A855F7 0%, #0EA5E9 50%, #3D9A62 100%)',
+        'gradient-neoandino': 'linear-gradient(135deg, #FF6B35 0%, #7B2CBF 25%, #06FFF0 50%, #F72585 75%, #FFB800 100%)',
+      },
+      boxShadow: {
+        'glow-purple': '0 0 40px rgba(123, 44, 191, 0.3)',
+        'glow-turquoise': '0 0 40px rgba(6, 255, 240, 0.3)',
+        'glow-gold': '0 0 40px rgba(255, 184, 0, 0.3)',
+        'neo-1': '0 2px 8px rgba(123, 44, 191, 0.1), 0 8px 32px rgba(255, 107, 53, 0.08)',
+        'neo-2': '0 10px 40px rgba(26, 31, 58, 0.2), 0 0 80px rgba(6, 255, 240, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.1)',
+        'neo-3': '0 20px 60px rgba(247, 37, 133, 0.3), 0 0 100px rgba(255, 184, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1)',
       },
     },
   },

@@ -13,11 +13,11 @@ const Gallery = () => {
         { id: 'festivals', label: t('gallery.categories.festivals') },
     ];
 
-    // Images with i18n translations
+    // Images with i18n translations - Using local images
     const images = [
         {
             id: 1,
-            src: 'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800',
+            src: '/images/Ubicacion.png',
             alt: t('gallery.images.mountains.title'),
             title: t('gallery.images.mountains.title'),
             description: t('gallery.images.mountains.description'),
@@ -25,7 +25,7 @@ const Gallery = () => {
         },
         {
             id: 2,
-            src: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800',
+            src: '/images/Image1.png',
             alt: t('gallery.images.fields.title'),
             title: t('gallery.images.fields.title'),
             description: t('gallery.images.fields.description'),
@@ -33,7 +33,7 @@ const Gallery = () => {
         },
         {
             id: 3,
-            src: 'https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=800',
+            src: '/images/Vestimenta.png',
             alt: t('gallery.images.textiles.title'),
             title: t('gallery.images.textiles.title'),
             description: t('gallery.images.textiles.description'),
@@ -41,7 +41,7 @@ const Gallery = () => {
         },
         {
             id: 4,
-            src: 'https://images.unsplash.com/photo-1452857297128-d9c29adba80b?w=800',
+            src: '/images/Festividades/Fiestas1.png',
             alt: t('gallery.images.celebration.title'),
             title: t('gallery.images.celebration.title'),
             description: t('gallery.images.celebration.description'),
@@ -49,7 +49,7 @@ const Gallery = () => {
         },
         {
             id: 5,
-            src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+            src: '/images/Conocenos.png',
             alt: t('gallery.images.village.title'),
             title: t('gallery.images.village.title'),
             description: t('gallery.images.village.description'),
@@ -57,7 +57,7 @@ const Gallery = () => {
         },
         {
             id: 6,
-            src: 'https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800',
+            src: '/images/Cultura.png',
             alt: t('gallery.images.pottery.title'),
             title: t('gallery.images.pottery.title'),
             description: t('gallery.images.pottery.description'),
@@ -65,15 +65,15 @@ const Gallery = () => {
         },
         {
             id: 7,
-            src: 'https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800',
+            src: '/images/Identidad.png',
             alt: t('gallery.images.sunset.title'),
             title: t('gallery.images.sunset.title'),
             description: t('gallery.images.sunset.description'),
-            category: 'landscapes',
+            category: 'people',
         },
         {
             id: 8,
-            src: 'https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800',
+            src: '/images/Tradiciones.png',
             alt: t('gallery.images.baskets.title'),
             title: t('gallery.images.baskets.title'),
             description: t('gallery.images.baskets.description'),
@@ -81,10 +81,18 @@ const Gallery = () => {
         },
         {
             id: 9,
-            src: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+            src: '/images/Festividades/Fiestas2.png',
             alt: t('gallery.images.dance.title'),
             title: t('gallery.images.dance.title'),
             description: t('gallery.images.dance.description'),
+            category: 'festivals',
+        },
+        {
+            id: 10,
+            src: '/images/Festividades/Fiestas3.png',
+            alt: t('gallery.images.celebration.title'),
+            title: t('gallery.images.celebration.title'),
+            description: t('gallery.images.celebration.description'),
             category: 'festivals',
         },
     ];
