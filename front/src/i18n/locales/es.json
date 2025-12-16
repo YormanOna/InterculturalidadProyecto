@@ -6,7 +6,8 @@
         "traditions": "Tradiciones",
         "cosmovision": "Cosmovisión",
         "gallery": "Galería",
-        "contact": "Contacto"
+        "contact": "Contacto",
+        "learn": "Aprender Kichwa"
     },
     "language": {
         "spanish": "Español",
@@ -667,6 +668,102 @@
                 "question": "¿Se enseña el idioma kichwa?",
                 "answer": "Sí, implementamos el Modelo de Educación Intercultural Bilingüe (MOSEIB) en nuestras comunidades. También organizamos talleres de lengua kichwa para preservar nuestra identidad cultural."
             }
+        }
+    },
+    "learn": {
+        "title": "Aprende Kichwa",
+        "subtitle": "Descubre el idioma ancestral del pueblo Karanki",
+        "hero": {
+            "badge": "Yachay - Conocimiento"
+        },
+        "categories": {
+            "greetings": "Saludos",
+            "family": "Familia",
+            "nature": "Naturaleza",
+            "numbers": "Números",
+            "colors": "Colores",
+            "animals": "Animales",
+            "food": "Alimentos",
+            "body": "Cuerpo"
+        },
+        "words": {
+            "greetings": [
+                { "spanish": "Hola", "kichwa": "Alli puncha", "pronunciation": "ali puncha" },
+                { "spanish": "Buenos días", "kichwa": "Alli tutamanta", "pronunciation": "ali tutamanta" },
+                { "spanish": "Buenas tardes", "kichwa": "Alli chishi", "pronunciation": "ali chishi" },
+                { "spanish": "Buenas noches", "kichwa": "Alli tuta", "pronunciation": "ali tuta" },
+                { "spanish": "Adiós", "kichwa": "Ama llakichu", "pronunciation": "ama yakichu" },
+                { "spanish": "Gracias", "kichwa": "Yupaychani", "pronunciation": "yupaichani" },
+                { "spanish": "Por favor", "kichwa": "Ama hina kaychu", "pronunciation": "ama hina kaichu" },
+                { "spanish": "¿Cómo estás?", "kichwa": "Imaynalla kawsankichik?", "pronunciation": "imaynalla kawsankichik" }
+            ],
+            "family": [
+                { "spanish": "Padre", "kichwa": "Tayta", "pronunciation": "taita" },
+                { "spanish": "Madre", "kichwa": "Mama", "pronunciation": "mama" },
+                { "spanish": "Hijo", "kichwa": "Wawa", "pronunciation": "wawa" },
+                { "spanish": "Hermano", "kichwa": "Wawki", "pronunciation": "wawki" },
+                { "spanish": "Hermana", "kichwa": "Ñaña", "pronunciation": "ñaña" },
+                { "spanish": "Abuelo", "kichwa": "Apu", "pronunciation": "apu" },
+                { "spanish": "Abuela", "kichwa": "Mama mama", "pronunciation": "mama mama" },
+                { "spanish": "Familia", "kichwa": "Ayllu", "pronunciation": "aillu" }
+            ],
+            "nature": [
+                { "spanish": "Sol", "kichwa": "Inti", "pronunciation": "inti" },
+                { "spanish": "Luna", "kichwa": "Killa", "pronunciation": "killa" },
+                { "spanish": "Agua", "kichwa": "Yaku", "pronunciation": "yaku" },
+                { "spanish": "Tierra", "kichwa": "Pacha", "pronunciation": "pacha" },
+                { "spanish": "Montaña", "kichwa": "Urku", "pronunciation": "urku" },
+                { "spanish": "Río", "kichwa": "Mayu", "pronunciation": "mayu" },
+                { "spanish": "Flor", "kichwa": "Sisay", "pronunciation": "sisay" },
+                { "spanish": "Árbol", "kichwa": "Yura", "pronunciation": "yura" }
+            ],
+            "numbers": [
+                { "spanish": "Uno", "kichwa": "Shuk", "pronunciation": "shuk" },
+                { "spanish": "Dos", "kichwa": "Ishkay", "pronunciation": "ishkay" },
+                { "spanish": "Tres", "kichwa": "Kimsa", "pronunciation": "kimsa" },
+                { "spanish": "Cuatro", "kichwa": "Chusku", "pronunciation": "chusku" },
+                { "spanish": "Cinco", "kichwa": "Pichka", "pronunciation": "pichka" },
+                { "spanish": "Seis", "kichwa": "Sukta", "pronunciation": "sukta" },
+                { "spanish": "Siete", "kichwa": "Kanchis", "pronunciation": "kanchis" },
+                { "spanish": "Ocho", "kichwa": "Pusak", "pronunciation": "pusak" },
+                { "spanish": "Nueve", "kichwa": "Iskun", "pronunciation": "iskun" },
+                { "spanish": "Diez", "kichwa": "Chunka", "pronunciation": "chunka" }
+            ],
+            "colors": [
+                { "spanish": "Blanco", "kichwa": "Yurak", "pronunciation": "yurak" },
+                { "spanish": "Negro", "kichwa": "Yana", "pronunciation": "yana" },
+                { "spanish": "Rojo", "kichwa": "Puka", "pronunciation": "puka" },
+                { "spanish": "Amarillo", "kichwa": "Killu", "pronunciation": "killu" },
+                { "spanish": "Verde", "kichwa": "Kumir", "pronunciation": "kumir" },
+                { "spanish": "Azul", "kichwa": "Ankas", "pronunciation": "ankas" }
+            ],
+            "animals": [
+                { "spanish": "Perro", "kichwa": "Allku", "pronunciation": "allku" },
+                { "spanish": "Gato", "kichwa": "Misi", "pronunciation": "misi" },
+                { "spanish": "Cóndor", "kichwa": "Kuntur", "pronunciation": "kuntur" },
+                { "spanish": "Llama", "kichwa": "Llama", "pronunciation": "llama" },
+                { "spanish": "Pájaro", "kichwa": "Pishku", "pronunciation": "pishku" },
+                { "spanish": "Cuy", "kichwa": "Kuy", "pronunciation": "kui" }
+            ],
+            "food": [
+                { "spanish": "Maíz", "kichwa": "Sara", "pronunciation": "sara" },
+                { "spanish": "Papa", "kichwa": "Papa", "pronunciation": "papa" },
+                { "spanish": "Quinua", "kichwa": "Kinwa", "pronunciation": "kinwa" },
+                { "spanish": "Agua", "kichwa": "Yaku", "pronunciation": "yaku" },
+                { "spanish": "Comida", "kichwa": "Mikuy", "pronunciation": "mikuy" },
+                { "spanish": "Pan", "kichwa": "Tanta", "pronunciation": "tanta" }
+            ],
+            "body": [
+                { "spanish": "Cabeza", "kichwa": "Uma", "pronunciation": "uma" },
+                { "spanish": "Ojo", "kichwa": "Ñawi", "pronunciation": "ñawi" },
+                { "spanish": "Mano", "kichwa": "Maki", "pronunciation": "maki" },
+                { "spanish": "Pie", "kichwa": "Chaki", "pronunciation": "chaki" },
+                { "spanish": "Corazón", "kichwa": "Shunku", "pronunciation": "shunku" }
+            ]
+        },
+        "practice": {
+            "title": "Practica tu pronunciación",
+            "subtitle": "Haz clic en las palabras para escuchar su pronunciación"
         }
     },
     "footer": {

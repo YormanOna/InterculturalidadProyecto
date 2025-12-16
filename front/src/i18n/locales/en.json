@@ -6,7 +6,8 @@
         "traditions": "Traditions",
         "cosmovision": "Worldview",
         "gallery": "Gallery",
-        "contact": "Contact"
+        "contact": "Contact",
+        "learn": "Learn Kichwa"
     },
     "language": {
         "spanish": "Español",
@@ -680,6 +681,27 @@
             "october": "October",
             "november": "November",
             "december": "December"
+        }
+    },
+    "learn": {
+        "title": "Learn Kichwa",
+        "subtitle": "Discover the ancestral language of the Karanki people",
+        "hero": {
+            "badge": "Yachay - Knowledge"
+        },
+        "categories": {
+            "greetings": "Greetings",
+            "family": "Family",
+            "nature": "Nature",
+            "numbers": "Numbers",
+            "colors": "Colors",
+            "animals": "Animals",
+            "food": "Food",
+            "body": "Body"
+        },
+        "practice": {
+            "title": "Practice your pronunciation",
+            "subtitle": "Click on the words to hear their pronunciation"
         }
     }
 }

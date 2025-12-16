@@ -6,7 +6,8 @@
         "traditions": "Ñawpa Yachay",
         "cosmovision": "Pacha Yachay",
         "gallery": "Rikuna Wasi",
-        "contact": "Rimanakuy"
+        "contact": "Rimanakuy",
+        "learn": "Kichwa Yachay"
     },
     "language": {
         "spanish": "Español",
@@ -629,8 +630,29 @@
         "email": "info@karanki.ec",
         "phone": "+593 (06) 123-4567",
         "mission": "Ñukanchik Ruray",
-        "missionText": "Ñawpa Karanki kulturata wankachina, kallpachana, tantachina, Pacha Mamata yupaychakushpa, yayayakunapa yachaykunata kasukushpa.",
+        "missionText": "Ñawpa Karanki kulturata wankachina, kallpachina, tantachina, Pacha Mamata yupaychakushpa, yayayakunapa yachaykunata kasukushpa.",
         "learnMore": "Ashwan Yachay",
         "rights": "Kichwa Karanki Runakuna. Tukuy derecho wankachishka."
+    },
+    "learn": {
+        "title": "Kichwa Yachay",
+        "subtitle": "Karanki runapa ñawpa shimita yachay",
+        "hero": {
+            "badge": "Yachay - Ñawpa Yachana"
+        },
+        "categories": {
+            "greetings": "Napaykunay",
+            "family": "Ayllu",
+            "nature": "Pacha",
+            "numbers": "Yupay",
+            "colors": "Tullpukuna",
+            "animals": "Uywa",
+            "food": "Mikuna",
+            "body": "Aycha"
+        },
+        "practice": {
+            "title": "Shimita yachaykuy",
+            "subtitle": "Shimita uyarinapak ñitiy"
+        }
     }
 }

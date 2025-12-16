@@ -23,7 +23,7 @@ const Hero = ({ title, subtitle, cta, ctaLink, ctaSecondary, ctaSecondaryLink })
     }, [images.length]);
 
     return (
-        <div className="relative min-h-[700px] flex items-center justify-center overflow-hidden">
+        <div className="relative min-h-screen flex items-center justify-center overflow-hidden -mt-16 pt-16">
             {/* Carrusel de imágenes de fondo */}
             <div className="absolute inset-0 z-0">
                 {images.map((image, index) => (

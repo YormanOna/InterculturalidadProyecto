@@ -135,7 +135,7 @@ const Gallery = () => {
     return (
         <div className="min-h-screen bg-cream-50">
             {/* Hero Section - Mosaic Design */}
-            <div className="relative bg-gradient-to-br from-indigo-nocturno-900 via-purple-andino-800 to-indigo-nocturno-900 text-white overflow-hidden">
+            <div className="relative min-h-screen bg-gradient-to-br from-indigo-nocturno-900 via-purple-andino-800 to-indigo-nocturno-900 text-white overflow-hidden flex items-center -mt-16 pt-16">
                 {/* Decorative elements */}
                 <div className="absolute inset-0 opacity-10">
                     <div className="absolute top-10 left-10 w-32 h-32 border-4 border-gold-solar-400 rounded-full"></div>
@@ -143,7 +143,7 @@ const Gallery = () => {
                     <div className="absolute top-1/2 right-1/4 w-16 h-16 border-4 border-terracotta-400 transform rotate-45"></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         {/* Left side - Text */}
                         <motion.div

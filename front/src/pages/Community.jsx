@@ -43,7 +43,7 @@ const Community = () => {
     return (
         <div className="min-h-screen bg-cream-50">
             {/* Hero Section - Diseño completamente diferente */}
-            <div className="relative bg-gradient-to-br from-green-chakra-900 via-forest-800 to-terracotta-900 overflow-hidden">
+            <div className="relative min-h-screen bg-gradient-to-br from-green-chakra-900 via-forest-800 to-terracotta-900 overflow-hidden flex items-center -mt-16 pt-16">
                 {/* Imagen de fondo con parallax effect */}
                 <div className="absolute inset-0 opacity-30">
                     <img 
@@ -72,7 +72,7 @@ const Community = () => {
                     }}></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-32">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 py-20">
                     {/* Diseño vertical centrado */}
                     <div className="flex flex-col items-center text-center space-y-8">
                         {/* Icono principal con efecto de brillo */}

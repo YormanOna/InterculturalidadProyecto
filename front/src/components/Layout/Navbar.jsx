@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, Globe } from 'lucide-react';
@@ -7,8 +7,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [langOpen, setLangOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
     const { t, i18n } = useTranslation();
     const location = useLocation();
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const navLinks = [
         { path: '/', label: t('nav.home') },
@@ -17,6 +27,7 @@ const Navbar = () => {
         { path: '/traditions', label: t('nav.traditions') },
         { path: '/cosmovision', label: t('nav.cosmovision') },
         { path: '/gallery', label: t('nav.gallery') },
+        { path: '/learn', label: t('nav.learn') },
     ];
 
     const languages = [
@@ -33,13 +44,19 @@ const Navbar = () => {
     const isActive = (path) => location.pathname === path;
 
     return (
-        <nav className="bg-white/95 backdrop-blur-sm shadow-lg sticky top-0 z-50 border-b-2 border-terracotta-200">
+        <nav className={`backdrop-blur-sm shadow-lg sticky top-0 z-50 transition-all duration-300 ${
+            isScrolled 
+                ? 'bg-white/95 border-b-2 border-terracotta-200' 
+                : 'bg-transparent border-b-2 border-transparent'
+        }`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
                         <img src="/images/icono.png" alt="Karanki Logo" className="h-10 w-10" />
-                        <span className="font-display font-bold text-xl text-terracotta-700 hidden sm:block">
+                        <span className={`font-display font-bold text-xl hidden sm:block transition-colors duration-300 ${
+                            isScrolled ? 'text-terracotta-700' : 'text-white'
+                        }`}>
                             Karanki
                         </span>
                     </Link>
@@ -50,10 +67,13 @@ const Navbar = () => {
                             <Link
                                 key={link.path}
                                 to={link.path}
-                                className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${isActive(link.path)
+                                className={`px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
+                                    isActive(link.path)
                                         ? 'bg-terracotta-600 text-white shadow-md'
-                                        : 'text-gray-700 hover:bg-terracotta-50 hover:text-terracotta-700'
-                                    }`}
+                                        : isScrolled
+                                            ? 'text-gray-700 hover:bg-terracotta-50 hover:text-terracotta-700'
+                                            : 'text-white hover:bg-white/20 hover:text-white'
+                                }`}
                             >
                                 {link.label}
                             </Link>
@@ -133,7 +153,11 @@ const Navbar = () => {
                         {/* Mobile Menu Button */}
                         <button
                             onClick={() => setIsOpen(!isOpen)}
-                            className="md:hidden p-2 rounded-lg bg-terracotta-50 text-terracotta-700 hover:bg-terracotta-100 transition-colors"
+                            className={`md:hidden p-2 rounded-lg transition-colors ${
+                                isScrolled 
+                                    ? 'bg-terracotta-50 text-terracotta-700 hover:bg-terracotta-100' 
+                                    : 'bg-white/20 text-white hover:bg-white/30'
+                            }`}
                         >
                             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                         </button>
@@ -147,7 +171,7 @@ const Navbar = () => {
                             initial={{ opacity: 0, height: 0 }}
                             animate={{ opacity: 1, height: 'auto' }}
                             exit={{ opacity: 0, height: 0 }}
-                            className="md:hidden pb-4"
+                            className={`md:hidden pb-4 ${!isScrolled ? 'bg-white/10 backdrop-blur-md rounded-lg mt-2' : ''}`}
                         >
                             <div className="flex flex-col space-y-2">
                                 {navLinks.map((link) => (
@@ -155,10 +179,13 @@ const Navbar = () => {
                                         key={link.path}
                                         to={link.path}
                                         onClick={() => setIsOpen(false)}
-                                        className={`px-4 py-3 rounded-lg font-medium transition-all duration-300 ${isActive(link.path)
+                                        className={`px-4 py-3 rounded-lg font-medium transition-all duration-300 ${
+                                            isActive(link.path)
                                                 ? 'bg-terracotta-600 text-white shadow-md'
-                                                : 'text-gray-700 hover:bg-terracotta-50 hover:text-terracotta-700'
-                                            }`}
+                                                : isScrolled
+                                                    ? 'text-gray-700 hover:bg-terracotta-50 hover:text-terracotta-700'
+                                                    : 'text-white hover:bg-white/20'
+                                        }`}
                                     >
                                         {link.label}
                                     </Link>

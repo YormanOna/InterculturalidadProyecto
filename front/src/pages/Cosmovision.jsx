@@ -77,7 +77,7 @@ const Cosmovision = () => {
     return (
         <div className="min-h-screen">
             {/* Hero - Cosmic Design */}
-            <div className="relative bg-gradient-to-br from-indigo-nocturno-900 via-purple-andino-800 to-indigo-nocturno-900 text-white overflow-hidden">
+            <div className="relative min-h-screen bg-gradient-to-br from-indigo-nocturno-900 via-purple-andino-800 to-indigo-nocturno-900 text-white overflow-hidden flex items-center -mt-16 pt-16">
                 {/* Animated cosmic background */}
                 <div className="absolute inset-0 opacity-20">
                     <div className="absolute top-10 left-10 w-2 h-2 bg-gold-solar-400 rounded-full animate-pulse"></div>
@@ -94,7 +94,7 @@ const Cosmovision = () => {
                     <div className="absolute inset-16 rounded-full border-2 border-purple-andino-400 animate-spin" style={{animationDuration: '20s'}}></div>
                 </div>
 
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 relative z-10">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10 w-full">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         {/* Left side - Text content */}
                         <motion.div

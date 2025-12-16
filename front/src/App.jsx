@@ -7,6 +7,7 @@ import Community from './pages/Community';
 import Traditions from './pages/Traditions';
 import Cosmovision from './pages/Cosmovision';
 import Gallery from './pages/Gallery';
+import Learn from './pages/Learn';
 import ScrollToTop from './components/UI/ScrollToTop';
 import ScrollToTopButton from './components/UI/ScrollToTopButton';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/traditions" element={<Traditions />} />
           <Route path="/cosmovision" element={<Cosmovision />} />
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/learn" element={<Learn />} />
         </Routes>
       </main>
       <Footer />

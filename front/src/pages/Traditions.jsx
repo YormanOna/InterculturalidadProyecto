@@ -30,7 +30,7 @@ const Traditions = () => {
     return (
         <div className="min-h-screen bg-cream-50">
             {/* Hero Section - Diseño único con split diagonal */}
-            <div className="relative overflow-hidden">
+            <div className="relative min-h-screen overflow-hidden flex items-center -mt-16 pt-16">
                 {/* Fondo con gradiente diagonal */}
                 <div className="absolute inset-0 bg-gradient-to-br from-turquoise-glaciar-700 via-sky-600 to-purple-andino-700"></div>
                 
@@ -47,7 +47,7 @@ const Traditions = () => {
                 </div>
 
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-20 md:py-32">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-20">
                         {/* Columna izquierda - Contenido */}
                         <motion.div
                             initial={{ opacity: 0, x: -50 }}

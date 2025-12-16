@@ -28,7 +28,7 @@ const Culture = () => {
     return (
         <div className="min-h-screen bg-cream-50">
             {/* Hero Section mejorado con imagen de fondo */}
-            <div className="relative min-h-[500px] flex items-center justify-center overflow-hidden">
+            <div className="relative min-h-screen flex items-center justify-center overflow-hidden -mt-16 pt-16">
                 {/* Imagen de fondo */}
                 <div className="absolute inset-0">
                     <img 

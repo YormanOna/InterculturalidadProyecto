@@ -44,7 +44,8 @@ const Contact = () => {
     return (
         <div className="min-h-screen">
             {/* Header */}
-            <div className="bg-turquoise-glaciar-600 text-white py-20">
+            <div className="bg-turquoise-glaciar-600 text-white min-h-[60vh] flex items-center -mt-16 pt-16">
+                <div className="w-full py-20">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-5xl font-display font-bold mb-6">
                         {t('contactPage.title')}
@@ -131,6 +132,7 @@ const Contact = () => {
                             </form>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
 
